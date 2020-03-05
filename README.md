@@ -12,3 +12,5 @@
 参赛院校天津师范大学软件学院
 
 作品概念和开发指南将与后台代码一起发布
+
+![首页](https://edudemo1234.oss-cn-beijing.aliyuncs.com/%E9%A6%96%E9%A1%B5.png)
