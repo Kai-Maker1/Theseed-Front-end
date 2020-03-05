@@ -1,0 +1,109 @@
+<!-- 学习统计 -->
+<view class="study-graph">
+  <view class="line1"></view>
+  <view class="line2"></view>
+  <view class="line3"></view>
+  <view class="line4"></view>
+  <view class="first-day">
+   <view class="show ">
+     <view class="study-time1">
+       <view class="time-text">20分钟</view>
+     </view>
+     <view class="study-tube1"></view>
+    </view>
+    <view class="study-data">
+      <view class="data-text">01.04</view>
+    </view>
+  </view>
+  <view class="second-day">
+   <view class="show ">
+     <view class="study-time2">
+       <view class="time-text">100分钟</view>
+     </view>
+     <view class="study-tube2"></view>
+    </view>
+    <view class="study-data">
+      <view class="data-text">01.05</view>
+    </view>
+  </view>
+  <view class="third-day">
+   <view class="show ">
+     <view class="study-time3">
+       <view class="time-text">150分钟</view>
+     </view>
+     <view class="study-tube3"></view>
+    </view>
+    <view class="study-data">
+      <view class="data-text">01.06</view>
+    </view>
+  </view>
+  <view class="fourth-day">
+   <view class="show ">
+     <view class="study-time4">
+       <view class="time-text">80分钟</view>
+     </view>
+     <view class="study-tube4"></view>
+    </view>
+    <view class="study-data">
+      <view class="data-text">01.07</view>
+    </view>
+  </view>
+
+
+</view>
+<!-- 头像信息 -->
+<view class="person">
+  <view class="person-img">
+    <image class="person-image" src="https://wx.qlogo.cn/mmopen/vi_32/t4hk1opmAYRhPUuE0WGm5CHha5WEXCzyXUwtDDEWx9CoVqK6JtI5xujol3MWfyWxxZjR5fYDzXJ70g94HTdKicw/132"></image>
+  </view>
+  <view class="person-name">被宠幸的猫</view>
+  <view class="rank">
+    <!-- <text class="rank-text">全网排名>></text> -->
+  </view>
+</view>
+<!-- 排名详情 -->
+<view class="banner-list">
+  <view class="banner-time">
+    <view class="banner-time-text">80分钟</view>
+  </view>
+  <view class="banner-line1"></view>
+  <view class="banner-count">
+    <view class="banner-count-text">80积分</view>
+  </view>
+  <view class="banner-line2"></view>
+  <view class="banner-rank">
+    <view class="banner-rank-text">10</view>
+  </view>
+</view>
+<view class="rank-title">
+  <view class="title">- 学习排行榜 -</view>
+</view>
+<view class="rank-list">
+  <view class="user">
+    <view class="user-img">
+    <image class="user-image" src='/images/person.jpg'></image>
+    </view>
+    <view class="user-name">碰ci与六月</view>
+    <view class="user-time">120分钟</view>
+    <view class="user-count">80积分</view>
+    <view class="user-rank">10</view>
+  </view>
+  <view class="user-sel">
+    <view class="user-img">
+    <image class="user-image" src='/images/person.jpg'></image>
+    </view>
+    <view class="user-name">碰ci与六月</view>
+    <view class="user-time">120分钟</view>
+    <view class="user-count">80积分</view>
+    <view class="user-rank">10</view>
+  </view>
+  <view class="user">
+    <view class="user-img">
+    <image class="user-image" src='/images/person.jpg'></image>
+    </view>
+    <view class="user-name">碰ci与六月</view>
+    <view class="user-time">120分钟</view>
+    <view class="user-count">80积分</view>
+    <view class="user-rank">10</view>
+  </view>
+</view>

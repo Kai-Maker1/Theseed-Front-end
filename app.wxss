@@ -1,0 +1,83 @@
+/**app.wxss**/
+
+@import "/pages/allPow/test.wxss";
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+
+  
+} 
+.mode-white{
+  width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgb(228, 228, 228);
+    z-index: 9000;
+    
+
+    display: flex;
+    justify-items: center;
+    align-content: center;
+}
+.flex-wrp{
+  display: flex;
+}
+.clearfix {
+  zoom: 1;
+  clear: both;
+}
+
+.clearfix:after {
+  display: block;
+  height: 0;
+  overflow: hidden;
+  content: " ";
+  visibility: hidden;
+  clear: both;
+}
+.left{
+  display:  inline-block;
+  float: left;
+}
+.right{
+  display:  inline-block;
+  float: right
+}
+/* 内容两行 */
+.wordH2{
+   overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.wordH1{
+  overflow:hidden; 
+
+text-overflow:ellipsis;
+
+white-space:nowrap; 
+}
+/* 圆角边框 */
+.roundEdge{
+  border-radius: 20rpx;
+  
+}
+/* 已经到最低了 */
+.gl-bottom{
+  font-size: 27rpx;
+  line-height: 70rpx;
+  color: #525252;
+  height: 70rpx;
+  width: 750rpx;
+  text-align: center;
+}
+
+/* 45.32.211.90 1998 duyunlong */

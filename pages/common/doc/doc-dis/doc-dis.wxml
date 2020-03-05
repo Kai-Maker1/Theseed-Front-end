@@ -1,0 +1,36 @@
+<template name="dis">
+  <view class='dis-line-aro dis-btn'>
+  <navigator url='/pages/doc-dis/doc-dis'><view class='dis-left'> 综合讨论区</view></navigator>
+  <navigator url='/pages/doc-dis/doc-dis'><view class='dis-right'>教师答疑区</view></navigator>
+    
+  </view>
+
+
+  <view class='dis-ver' wx:for="{{tempArray}}">
+
+    <view class='dis-text-title'>{{item.courseComment.commentTitle}}
+      <view class='dis-text-title2'>老师参与</view>
+    </view>
+    <view class='dis-text-msg'> {{item.courseComment.content}}</view>
+    <view class='dis-lina-bet'>
+      <view class='dis-lina-betline' style='width: 300rpx;'>
+        <view class='dis-text-name'>{{item.courseComment.userNickname}}</view>
+        <view class='dis-text-time'></view>
+
+      </view>
+      <view class='dis-lina-rbetline'>
+        <view class='dis-zan'>
+          <image src='/images/allCou/allkecheng_xiangqing_taolun_dianzan.png'></image>
+          {{item.courseComment.likeNum}}
+        </view>
+        <view class='dis-cai'>
+          
+          {{item.courseComment.readNum}}阅读
+        </view>
+      </view>
+      <view></view>
+    </view>
+
+  </view>
+
+</template>

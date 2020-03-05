@@ -1,0 +1,3 @@
+<!--pages/topics/myDow/myDow.wxml-->
+<import src="/pages/common/list/mesDow/mesDow.wxml" />
+<template is="mesDow" data="{{List}}"/>

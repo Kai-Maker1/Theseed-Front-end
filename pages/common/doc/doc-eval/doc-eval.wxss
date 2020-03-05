@@ -1,0 +1,74 @@
+.eval-item{
+  
+  background-color: #fff;
+  margin: 15rpx 0;
+  padding: 15rpx 30rpx;
+  
+
+}
+.eval-item-lin{
+  display: flex;
+  flex-direction: row;
+  padding: 0 40rpx;
+
+  align-items: center;
+}
+.evalMath{
+  letter-spacing: 5rpx;
+  margin: 0 40rpx;
+  font-size: 32rpx;
+  line-height: 90rpx;
+  color: #fe9213;
+}
+
+
+.star image{
+  width: 37rpx;
+  height: 37rpx;
+  margin: 0 5rpx;
+  }
+
+
+
+  /* 评论 */
+  .eval-item-row{
+    flex-direction: row;
+    align-items: center;
+  }
+  .eval-image{
+    height: 60rpx;
+    width: 60rpx;
+    border-radius: 50rpx;
+    margin-right: 30rpx;
+  }
+  .eval-mItem{
+    flex-direction: column;
+    width:  550rpx;
+    display: flex;
+    height: 80rpx;
+    
+    /* justify-content: space-around; */
+  }
+  .eval-name{
+    font-size: 30rpx;
+    line-heigh: 42rpx;
+  }
+  .eval-stars{
+    width: 480rpx;
+    flex-direction: row;
+    justify-content: flex-end;
+    display: flex;
+
+  } 
+  .back{
+    height: 0rpx;
+  }
+  .back image{
+    height: 24rpx;
+    width: 24rpx;
+  }
+.eval-msg{
+  font-size: 18rpx;
+  line-height: 40rpx;
+  /* background-color: #584; */
+}

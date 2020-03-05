@@ -1,0 +1,39 @@
+/* pages/js-check/js-check.wxss */
+page {
+  background-color: #EEEEEE;
+}
+.class-section{
+  width: auto;
+  margin: 30rpx 20rpx 10rpx;
+  border-radius: 30rpx;
+  background-color: #fff;
+  padding: 50rpx 45rpx;
+  flex-flow: column nowrap;
+  letter-spacing: 3rpx;
+}
+.class-section-order{
+
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+/* height: 70rpx; */
+
+}
+.class-section-order text{
+  font-size: 32rpx;
+  font-weight: 400;
+  /* line-height: 40rpx; */
+  color: #000000;
+  letter-spacing: 0rpx;
+}
+.class-section-sta{
+  font-size: 22rpx;
+  font-weight: 400;
+  color: #fff;
+  letter-spacing: 0rpx;
+  border-radius: 15rpx;
+  padding: 3rpx 20rpx;
+}
+.class-color-blue{
+  background-color: #99CAD8;
+}

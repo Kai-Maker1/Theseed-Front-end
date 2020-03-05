@@ -1,0 +1,44 @@
+.check-item{
+  background-color: #fff;
+  margin-top: 15rpx;
+  padding: 10rpx 50rpx;
+  display: flex;
+  flex-direction: column;
+  /* line-height:  */
+}
+.check-text-title{
+  font-size: 32rpx;
+  line-height: 80rpx;
+
+}
+.check-text-time{
+font-size: 28rpx;
+line-height: 48rpx;
+color: #6D6D6D;
+}
+.check-msg{
+  font-size: 28rpx;
+  line-height: 52rpx;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  
+  
+}
+.check-text-math{
+  letter-spacing: 4rpx;
+  font-size: 25rpx;
+  font-weight: 200;
+  border-radius: 10rpx;
+  color: #fff;
+  padding: 0rpx 10rpx;
+}
+.green{
+  
+  background-color: #59AA19;
+}
+.red{
+  background-color: red;
+}

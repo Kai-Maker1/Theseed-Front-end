@@ -1,0 +1,46 @@
+/* pages/js-sel-class/js-sel-class.wxss */
+.sel-class-top{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #99CAD8;
+  padding: 24rpx;
+  font-size: 30rpx;
+  color: #fff;
+
+}
+.picker{
+  font-size:32rpx;
+  margin-left:30rpx;
+  line-height:40rpx;
+  
+}
+.vont{
+  margin: 15rpx 75rpx;
+}
+.checkbox{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.checkbox label{
+  margin-top: 25rpx;
+  width: 200rpx;
+  display: flex;
+  flex-direction: row;
+  font-size: 28rpx;
+  justify-content: center;
+  align-items: center;
+
+}
+
+/* 改圆角 */
+/* https://blog.csdn.net/weixin_41316842/article/details/80398239 */
+checkbox {
+  opacity: 0.4;
+  border-radius: 60%;
+}
+.btn{
+  margin: 150rpx 100rpx;
+  /* height: 60rpx; */
+}

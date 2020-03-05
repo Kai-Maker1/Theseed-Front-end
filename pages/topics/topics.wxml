@@ -1,0 +1,81 @@
+<!--pages/topics/topics.wxml-->
+<view class="bg-bannner">
+  <view class="banner-img">
+    <image class="bg-image" src='/images/my/12.png'></image>
+  </view>
+  <view class="user-photo">
+    <image class="user-photo-img" src='{{_user.avatarUrl}}'></image>
+    <view class="user-name">
+      <text class="name-text">{{_user.nickName}}</text>
+      <text class="user-gender" wx:if="{{_user.gender}}">♂</text>
+     <text class="user-gender gende-color" wx:else>♀</text>
+    </view>
+  </view>
+</view>
+<!-- function -->
+<view class="function-list">
+  <navigator url='/pages/user/identity/identity'>
+  <view class="identity">
+    <view clas="id-img">
+      <image class="id-image" src='/images/my/wode_geren.png'></image>
+    </view>
+    
+    <view class="id-text">
+      <view class="text">身份认证</view>
+    </view>
+  </view>
+  </navigator>
+  
+  <navigator url='/pages/user/set/set'>
+  <view class="set">
+    <view clas="set-img">
+      <image class="set-image" src='/images/my/wode_shezhi.png'></image>
+    </view>
+    <view class="set-text">
+      <view class="text">设置</view>
+    </view>
+  </view>
+  </navigator>
+
+
+  <view class="rec" bindtap='bindShare'>
+    <view clas="rec-img">
+      <image class="rec-image" src='/images/my/wode_zhuanfa.png'></image>
+    </view>
+    <view class="rec-text" open-type='share'>
+      <!-- <view class="text">推荐给好友</view> -->
+    
+      <button  open-type='share' class='btn-text'> 推荐给好友 </button>
+    </view>
+  </view>
+
+ 
+
+  <navigator url='/pages/user/about-us/about-us'>
+  <view class="about">
+    <view clas="about-img">
+      <image class="about-image" src='/images/my/wode_guanyu.png'></image>
+    </view>
+
+    <view class="moto-container" bindtap='onTab'>
+      <text class="moto">关于我们</text>
+    </view>
+  </view>
+  </navigator>
+</view>
+
+<view class="mask" wx:if="{{show}}" bindtap='close' catchtouchmove='maskTouchMove'></view>
+
+<view class="content-container" wx:if="{{ show}}" catchtouchmove='touchMove'>
+  <view>《SEED》小程序</view>
+  <view>【当前版本】</view>
+  <view>v1.0.1 2019--2-1</view>
+  <view>【本次更新日志】</view>
+  <view>SEED第一版正式上线</view>
+  <view>在使用中出现bug请反馈</view>
+  <view>【技术支持】</view>
+  <view>SEED工作室</view>
+</view>
+
+
+

@@ -1,0 +1,52 @@
+/* API/schoolSys/schoolSys.wxss */
+@import "/pages/common/from/from.wxss";
+.selSchool{
+  margin: 90rpx 69rpx 10rpx ;
+  display: flex;
+  
+}
+.selSchool image{
+  display: flex;
+    margin: 7rpx 2rpx;
+  
+  height: 30rpx;
+  width: 30rpx;
+}
+.selSchool text{
+  display: flex;
+  margin-left: 10rpx;
+  font-size: 34rpx;
+
+}
+
+.white button{
+  color: #fff;
+}
+
+
+.agreement{
+  margin: 34rpx auto;
+  color: #000;
+  font-size: 16rpx;
+  text-align: center;
+}
+.agreement text{
+  color:#8DC4D3;
+}
+.Bottom-text{
+  font-size: 22rpx;
+  color: #99cad8;
+  text-align: center;
+}
+.flo-bottom{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+
+
+.picker{
+    padding: 13px;
+    background-color: #FFFFFF;
+}

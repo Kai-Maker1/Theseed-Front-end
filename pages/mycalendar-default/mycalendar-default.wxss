@@ -1,0 +1,18 @@
+/* pages/mycalendar-default/mycalendar-default.wxss */
+page{
+  background-color: #eee;
+}
+.whole{
+  text-align: center;
+  margin-top:120rpx;
+}
+.img{
+  width:304rpx;
+  height:260rpx;
+
+}
+.title{
+  font-size:26rpx;
+  color:#888;
+  margin-top:30rpx;
+}

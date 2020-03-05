@@ -1,0 +1,101 @@
+.dis-line-aro{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 21rpx;
+
+}
+.dis-btn view{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 345rpx;
+  height: 60rpx;
+  border-radius: 15rpx;
+  
+  
+
+  font-size: 32rpx;
+  line-height: 60rpx;
+  color: #fff;
+}
+.dis-left{
+background-color: #8E96CB;
+}
+.dis-right{
+background-color: #69AAB2;
+}
+
+.dis-ver{
+  display: flex;
+  flex-direction: column;
+  margin-top: 21rpx;
+  padding: 5rpx 45rpx;
+  background-color: #fff;
+}
+.dis-text-title{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  font-size: 32rpx;
+  line-height: 48rpx;
+  margin: 10rpx 0;
+}
+.dis-text-title2{
+  font-size: 28rpx;
+  line-height: 30rpx;
+  border-radius: 10rpx;
+  height: 30rpx;
+  padding: 0rpx 10rpx;
+  margin-top: 10rpx;
+  margin-left: 15rpx;
+  border: 1rpx solid #69AAB2;
+  color: #69AAB2;
+}
+.dis-text-msg{
+  font-size: 28rpx;
+  line-height: 34rpx;
+  color: #555555;
+  /* height: 55rpx; */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.dis-lina-bet{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  font-size: 24rpx;
+  line-height: 32rpx;
+  margin-top: 15rpx;
+
+  
+}
+.dis-lina-betline{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+  
+  
+}
+.dis-lina-rbetline{
+
+  margin-left: 170rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+  width: 150rpx;
+  
+}
+.dis-lina-rbetline image{
+  height: 20rpx;
+  width: 20rpx;
+}
+.dis-zan{
+  width: 80rpx;
+}

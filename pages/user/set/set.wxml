@@ -1,0 +1,20 @@
+<!--pages/user/set/set.wxml-->
+<view class="shandow"></view>
+
+<view class="list1">
+  <view class="item">
+    <view class="text">是否开启上课提醒</view>
+    <view class="switch-type">
+      <view class="btn {{currentSelectTripType == 'pinche' ? 'active' : ''}}" bindtap='selectedPinche' data-id='pinche'>开启</view>
+    <view class="btn {{currentSelectTripType == 'baoche' ? 'active' : ''}}" bindtap='selectedBaoche' data-id='baoche'>关闭</view>
+
+    </view>
+  </view>
+</view>
+
+<view class="list2">
+  <view class="item">
+    <view class="text">是否清空本地数据</view>
+    <view class="data-num">1MB</view>
+  </view>
+</view>

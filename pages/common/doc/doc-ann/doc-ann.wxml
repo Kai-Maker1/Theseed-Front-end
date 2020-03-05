@@ -1,0 +1,11 @@
+<!-- 公告 -->
+<template name="ann"  >
+<view class='ann-item' wx:for="{{tempArray}}">
+<navigator url='/pages/doc-ann/doc-ann'>
+  <view class='ann-text-title'>{{item.noticeTitle}}</view>
+  <view class='ann-text-time'>{{item.createTime}}</view>
+</navigator>
+</view>
+
+
+</template>

@@ -1,0 +1,12 @@
+var sub = function (val) {
+
+    return val.substring(0, 10);
+  
+}
+var subB = function (val) {
+
+  return val.substring(11, 19);
+
+}
+module.exports.sub = sub;
+module.exports.subB = subB;

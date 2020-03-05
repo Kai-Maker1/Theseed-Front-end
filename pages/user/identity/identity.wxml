@@ -1,0 +1,66 @@
+<!--pages/user/identity/identity.wxml-->
+<view class="banner-logo">
+  <view class="logo-img">
+    <image class="logo-image"  src='{{_user.avatarUrl}}' ></image>
+  </view>
+  <view class="banner-text">身份认证</view>
+</view>
+<form bindsubmit='bindFrom'>
+<view class="list1" >
+  <view class="name">
+    <view class="name-text">姓名</view>
+    <view >
+      <input class='name-input input-textPa' name='userName' placeholder="{{userData==null?'请输入姓名':userData.userName}}"></input>
+    </view>
+  </view>
+  <view class="sex">
+    <view class="sex-text" >性别</view>
+    <view >
+      
+      <radio-group class="radio" name="userSex">
+      <label>
+        <radio value="nan" checked='{{userData.userSex =="nan"?true:false}}' />
+        男
+      </label>
+      <label>
+        <radio value="nv" checked='{{userData.userSex =="nv"?true:false}}' />
+        女
+      </label>
+    </radio-group>
+    </view>
+  </view>
+</view>
+
+<view class="list2">
+  <view class="school">
+    <view class="school-text" >学校</view>
+    <view>
+      <input class="school-input input-textPa " name="userSchool" placeholder="{{userData==null?'请输入学校':userData.userSchool}}"></input>
+    </view>
+  </view>
+  <view class="major">
+    <view class="major-text"  >专业</view>
+    <view >
+      <input class="major-input input-textPa " name="userMajor" placeholder="{{userData==null?'请输入专业':userData.userMajor}}"></input>
+    </view>
+  </view>
+   <view class="grade">
+    <view class="grade-text" >年级</view>
+    <view >
+      <input class="grade-input input-textPa" name="userClass" placeholder="{{userData==null?'请输入年级':userData.userClass}}"></input>
+    </view>
+    <view class="grade-show">级</view>
+  </view>
+</view>
+
+<view class="ensure" >
+  
+  <button class='ensure-text' form-type='submit' >确认提交</button>
+</view>
+</form>
+<view class="mask" wx:if="{{show}}" bindtap='close' catchtouchmove='maskTouchMove'></view>
+
+<view class="content-container" wx:if="{{ show}}" catchtouchmove='touchMove'>
+  <!-- 条件判断选择不同的文字显示 -->
+  <text class="content" >认证成功！</text>
+</view>

@@ -1,0 +1,9 @@
+/* pages/js-exam-ress.wxss */
+@import "../js-ex-res/js-ex-res.wxss";
+.ex-eaxm{
+  margin-right: 25rpx;
+  font-size: 40rpx;
+}
+.ex-ress-more{
+  width: 650rpx;
+}

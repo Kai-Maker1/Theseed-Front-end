@@ -1,0 +1,9 @@
+<!--pages/login/login_stu/login_stu.wxml-->
+
+
+<image class='image' src='https://wx.qlogo.cn/mmopen/vi_32/t4hk1opmAYRhPUuE0WGm5CHha5WEXCzyXUwtDDEWx9CoVqK6JtI5xujol3MWfyWxxZjR5fYDzXJ70g94HTdKicw/132'></image>
+
+
+<import src="/pages/common/from/from.wxml" />
+<!-- <text>pages/verify/verify.wxml</text> -->
+<template is="verFrom" data="{{verList}}" />

@@ -1,0 +1,42 @@
+<!--pages/js-card/js-card.wxml-->
+
+<view class='card-log card-fontcolor'>
+<navigator url='/pages/js-card-log/js-card-log'>
+<text bindtap='bindRec'>打卡记录</text>
+</navigator>
+</view>
+<view class='card-cont card-fontcolor'>
+  <image src='/images/jsMan/daka_zhiwen.png'>
+  </image>
+  <text >
+  当前位置：{{address}}
+  </text>
+  <text bindtap='upLoad'>
+  {{isCardStutus}}
+  </text>
+</view>
+
+<!-- 获取位置 -->
+<view class='card-demo card-shaow' hidden='true'>
+  <view class='card-demo-top'>
+  <image src='/images/jsMan/daka_weizhi.png'></image>
+  <text>正在获取当前位置</text>
+  </view>
+  <view class='card-demo-pos'>
+  天津师范大学劝学楼A
+  </view>
+  <view class='card-demo-sure'>
+  确定
+  </view>
+</view>
+<!-- 打卡状态 -->
+<view class='card-demo card-shaow' hidden='{{modelhide}}'>
+  <view class='card-demo-sta'>
+    <view  class="cardc-demo-fail"> {{modelMsg}}</view>
+    <view class='card-demo-text-time'></view>
+    <view class="card-demo-border"></view>
+    <view class='card-demo-sure2' bindtap='btnChang'>确定</view>
+  </view>
+  
+</view>
+

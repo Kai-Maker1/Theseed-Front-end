@@ -1,0 +1,60 @@
+/* pages/allPow/test.wxss */
+.flex-wrp{
+  display: flex;
+}
+/* flex布局 */
+.flex-line-
+.flex-line-spcAro{
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: stretch;
+}
+.flex-line-spcBet{
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+}
+.flex-ver{
+  flex-direction: column;
+  
+}
+/* 文字类 */
+
+/* 图片类 */
+
+
+
+/* 左图右字 */
+.user {
+  width: 725rpx;
+  background: #ffffff;
+  padding: 30rpx 25rpx 30rpx 0;
+  margin: 15rpx 0 0 0;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #dcdcdc;
+  box-shadow: 0 2px 5px #eeeeee;
+}
+.user .userinfo-avatar{
+  flex: 1;
+  display: inline-block;
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 80rpx;
+}
+.user .user-info{
+  flex: 5;
+  text-align: left;
+}
+.user .user-info text{
+  display: block;
+}
+.user .user-info .userinfo-nickname{
+  padding: 8rpx 0 10rpx 0;
+  font-size: 30rpx;
+  color: #818A8F;
+}
+.user .user-info .edit{
+  font-size: 30rpx;
+  color: #bababa;
+  line-height: 34rpx;
+}

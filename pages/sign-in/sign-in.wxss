@@ -1,0 +1,66 @@
+/* pages/sign-in/sign-in.wxss */
+page{
+  background-color:rgba(0, 0, 0, 0.5);
+}
+.text1{
+  color:#fff;
+  font-size:32rpx;
+  text-align: center;
+  position: absolute;
+  top:380rpx;
+  width:750rpx;
+}
+.text2{
+  color:#fff;
+  font-size:32rpx;
+  text-align:center;
+  position:absolute;
+  top:430rpx;
+  width:750rpx;
+}
+.text3{
+  font-size:30rpx;
+  color:#333;
+  width:720rpx;
+  text-align: center;
+  position: absolute;
+  top:620rpx;
+}
+.text4{
+    font-size:30rpx;
+  color:#333;
+  width:720rpx;
+  text-align: center;
+  position: absolute;
+  top:570rpx;
+}
+.ok{
+  width:310rpx;
+  height:76rpx;
+  border-radius: 38rpx;
+ background: -webkit-linear-gradient(left, rgba(254,151,151,1) , rgba(254,100,100,1)); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(right, rgba(254,151,151,1), rgba(254,100,100,1)); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(right, rgba(254,151,151,1), rgba(254,100,100,1)); /* Firefox 3.6 - 15 */
+  background: linear-gradient(to right, rgba(254,151,151,1) , rgba(254,100,100,1)); /* 标准的语法 */
+  position:absolute;
+  top:700rpx;
+  left:220rpx;
+}
+.ok-text{
+  color:#fff;
+  font-size:32rpx;
+  width:310rpx;
+  text-align:center;
+  line-height:76rpx;
+
+}
+
+
+
+
+.img{
+  width:484rpx;
+  height:593rpx;
+  margin-top:240rpx;
+  margin-left:133rpx;
+}

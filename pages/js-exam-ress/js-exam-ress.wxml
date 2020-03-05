@@ -1,0 +1,52 @@
+<!--pages/js-exam-ress.wxml-->
+
+<view class='js-ex-item'>
+  <view class='ex-name'>
+  <text>大数据与云计算</text>
+  <view class='ex-eaxm'>86.9</view>
+
+  </view>
+  
+  <view class='ex-other'>
+    <view class='ex-other-item ex-ress-more'>
+      <view class='ex-other-item-name '>类别</view>:
+      <view class='ex-other-item-msg'>专业课/选修课</view>
+    </view>
+    <view class='ex-other-item ex-ress-more'>
+      <view class='ex-other-item-name'>修读性质</view>:
+      <view class='ex-other-item-msg'>初修</view>
+    </view>
+    <view class='ex-other-item'>
+      <view class='ex-other-item-name'>考核方式</view>:
+      <view class='ex-other-item-msg'>考试</view>
+    </view>
+    <view class='ex-other-item'>
+      <view class='ex-other-item-name'>平时</view>:
+      <view class='ex-other-item-msg'>85</view>
+    </view>
+    <view class='ex-other-item'>
+      <view class='ex-other-item-name'>学分</view>:
+      <view class='ex-other-item-msg'>4</view>
+    </view>
+    <view class='ex-other-item'>
+      <view class='ex-other-item-name'>中考</view>:
+      <view class='ex-other-item-msg'>无</view>
+    </view>
+    <view class='ex-other-item'>
+      <view class='ex-other-item-name'>辅修标记</view>:
+      <view class='ex-other-item-msg'>主修</view>
+    </view>
+    <view class='ex-other-item'>
+      <view class='ex-other-item-name'>末考</view>:
+      <view class='ex-other-item-msg'>93</view>
+    </view>
+    <view class='ex-other-item'>
+      <view class='ex-other-item-name'>备注</view>:
+      <view class='ex-other-item-msg'></view>
+    </view>
+    <view class='ex-other-item'>
+      <view class='ex-other-item-name'>机能</view>:
+      <view class='ex-other-item-msg'>81</view>
+    </view>
+  </view>
+</view>

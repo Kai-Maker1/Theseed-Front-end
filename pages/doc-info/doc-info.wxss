@@ -1,0 +1,119 @@
+/* pages/doc-info/doc-info.wxss */
+@import "/pages/common/doc/doc-des/doc-des.wxss";
+@import "/pages/common/doc/doc-sche/doc-sche.wxss";
+@import "/pages/common/doc/doc-eval/doc-eval.wxss";
+@import "/pages/common/doc/doc-ann/doc-ann.wxss";
+@import "/pages/common/doc/doc-scheStu/doc-scheStu.wxss";
+@import "/pages/common/doc/doc-dowData/doc-dowData.wxss";
+@import "/pages/common/doc/doc-check/doc-check.wxss";
+@import "/pages/common/doc/doc-dis/doc-dis.wxss";
+page{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: #F2F2F2;
+}
+
+.top-image{
+  width: 750rpx;
+
+  height: 400rpx;
+}
+
+
+
+.nav-tabs{
+  width: 100%;
+  height: 75rpx;
+  display: flex;   
+  background-color: #fff;
+}
+.tab-content{
+  flex: 1;
+}
+.default{
+    line-height:75rpx;
+    text-align:center;
+    flex:1;
+    border-bottom:1px solid #eee;
+    color:#000;
+    font-weight:bold;
+    font-size:28rpx;  
+}
+.active{
+    line-height:75rpx;
+    text-align:center;
+    color:#fc5558;
+    flex:1;
+    border-bottom:1px solid red;
+    font-weight:bold;
+    font-size:28rpx;
+}
+.show{
+    display:block;
+    flex: 1;
+}
+.hidden{
+    display:none;
+    flex: 1;
+}
+
+
+
+
+.class-section{
+  height: 160rpx;
+  width: auto;
+  margin: 20rpx 15rpx 10rpx;
+  border-radius: 30rpx;
+  background-color: #fff;
+
+  padding: 20rpx 32rpx;
+
+  flex-flow: column nowrap;
+  letter-spacing: 3rpx;
+-webkit-box-shadow: -2px -2px 12px 4px rgba(214,214,214,1);
+-moz-box-shadow: -2px -2px 12px 4px rgba(214,214,214,1);
+box-shadow: -2px -2px 12px 4px rgba(214,214,214,1);
+}
+.class-section view{
+  /* margin: auto 32rpx; */
+}
+.class-section-order{
+  color: #99cad8;
+font-size: 28rpx;
+text-align: left;
+line-height: 54rpx;
+}
+.class-section-name{
+  color: #000;
+  line-height:44rpx;
+  font-size: 28rpx; 
+  font-weight: 800;
+}
+.class-section-content{
+flex-flow: row nowrap;
+justify-content: space-between; 
+}
+.class-section-teacher{
+  line-height: 40rpx;
+  font-size: 20rpx;
+  text-align: left;
+}
+.class-section-site{
+  line-height: 40rpx;
+  font-size: 32rpx;
+  text-align: right;
+  letter-spacing: 0rpx;
+  /* font-weight: 500; */
+
+  margin-right: 20rpx;
+}
+.class-section-time{
+  font-size: 20rpx;
+  line-height: 30rpx;
+
+}
+
+
+

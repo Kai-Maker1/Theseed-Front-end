@@ -1,0 +1,62 @@
+
+/* 列表begin */
+
+.mianList-item {
+  margin-top: 25rpx;
+  width: 750rpx;
+  height: 250rpx;
+  background-color: #fff;
+}
+
+.mianList-item .top {
+  width: 750rpx;
+  height: 80rpx;
+  border-bottom: 1rpx solid #e5e5e5;
+  display: inline-block;
+}
+
+.mianList-item .top image {
+  width: 35rpx;
+  height: 30rpx;
+  margin: 25rpx;
+  display: inline-block;
+}
+
+.mianList-item .top text {
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 30rpx;
+  font-weight: 800;
+  /* background-color: #334; */
+  display: inline-block;
+}
+
+.mianList-item .top view {
+  width: 20rpx;
+  height: 20rpx;
+  border-radius: 10rpx;
+  margin-top: 15rpx;
+  margin-right: 15rpx;
+  background-color: red;
+}
+
+.mianList-item .bottom {
+  width: 650rpx;
+  height: 155rpx;
+  padding: 0 50rpx;
+}
+
+.mianList-item .bottom text {
+  margin: 30rpx;
+  overflow: hidden;
+  /* //超出的文本隐藏 */
+  text-overflow: ellipsis;
+  /* //溢出用省略号显示 */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  font-size: 30rpx;
+  line-height: 38rpx;
+}
+
+/* 列表end */

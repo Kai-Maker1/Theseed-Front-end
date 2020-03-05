@@ -1,0 +1,8 @@
+.sche-active{
+  color: #FF9313;
+}
+.sche-active::after{
+  height: 20rpx;
+  width: 20rpx;
+  background-color: #253;
+}

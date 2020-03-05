@@ -1,0 +1,9 @@
+<!--pages/js-news/js-news.wxml-->
+<import src="../../wxParse/wxParse.wxml"/>
+
+<view class='title'>{{array.infoTitle}}</view>
+<view class='time'>{{array.createTime}}</view>
+<view class='content'>
+<template is="wxParse" data="{{wxParseData:article.nodes}}"/>
+ 
+</view>

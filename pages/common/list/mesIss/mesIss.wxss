@@ -1,0 +1,66 @@
+.list-year{
+  height: 50rpx;
+  font-size: 42rpx;
+  font-weight: 800;
+  margin-top: 15rpx;
+  padding: 0 50rpx;
+}
+.list-item{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 120rpx;
+  margin: 5rpx 20rpx;
+  border-radius: 3px;
+  
+  padding: 20rpx;
+  color: #000;
+}
+
+.list-item-image{
+  flex: 0 0 140rpx;
+  height: 140rpx;
+  width: 140rpx;
+  /* border-left: 1px solid #fff; */
+  
+
+}
+.list-item-left{
+  flex: 1 1 auto;
+  height: 150rpx;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  padding-right: 10rpx;
+  justify-content: center;
+  margin-left: 10rpx;
+  border-bottom: 1rpx solid #89CDDB;
+}
+
+.list-item-title{
+  font-size: 24rpx;
+  line-height: 36rpx;
+  
+  flex-direction: row;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  
+}
+.list-item-time{
+  font-size: 24rpx;
+  
+  opacity: 0.6;
+  line-height: 150rpx;
+  flex: 0 0 150rpx;
+  height: 150rpx;
+  width: 100rpx;
+  text-align: center;
+  color: #000;
+  font-weight: 800;
+}
+.list-item-time span{
+  font-size: 42rpx;
+}

@@ -1,0 +1,45 @@
+.verFrom{
+  margin: 50rpx 82rpx;
+  width: 586rpx;
+}
+.section{
+    margin-bottom: 30rpx;
+    
+}
+.section_gap{
+    padding: 0 30rpx;
+}
+.section__title{
+    margin-bottom: 20rpx;
+    /* padding-left: 30rpx; */
+    padding-right: 30rpx;
+    font-size: 36rpx;
+    color: #99cad8;
+}
+.section input{
+  width: 100%;
+  height: 24rpx;
+
+  border-bottom: 1rpx solid  #E8E8E8;
+  font-size: 22rpx;
+  color: #000;
+  line-height: 24rpx;
+}
+.section_gap .section__title{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.btn-area{
+    padding: 0 30px;
+}
+.btn-area button{
+  width: 280rpx;
+  height: 60rpx;
+  font-size: 30rpx;
+  line-height: 60rpx;
+  color: #010000;
+  background-color: #99CAD8;
+    margin-top: 20rpx;
+    margin-bottom: 20rpx;
+}

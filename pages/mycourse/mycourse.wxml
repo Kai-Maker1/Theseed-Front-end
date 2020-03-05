@@ -1,0 +1,116 @@
+<!--pages/mycourse/mycourse.wxml-->
+<!-- 我不太清楚那个复用怎么使就自己写了一个 -->
+<view class="all">
+  <view class="top-tiitle">
+    <view class="top-title-text">
+        全部课程（20）
+    </view>
+  </view>
+  <view class="mian">
+    <view class="course">
+      <view class="course-img">
+        <navigator url='/pages/doc-info/doc-info'>
+        <image class="course-image" src='/images/study/timg1.jpg'></image>
+        </navigator>
+         <view class="plan">
+          <view class="plan-text">
+            已学习100%
+          </view> 
+        </view>
+      </view>
+      <view class="details">
+        <view class="course-name">
+          <view class="course-name-text">
+           WEB前端开发
+          </view>
+        </view>
+        <view class="course-more">
+          <view class="teacher">
+            <view class="teacher-text">
+             张少强
+            </view> 
+          </view>
+          <view class="count">
+            <view class="count-img">  
+              <image class="count-image" src='/images/myStudy/allkecheng_home_person.png'>
+              </image>
+            </view>
+            <view class="num">
+              <view class="num-text">1309</view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="course">
+      <view class="course-img">
+        <navigator url='/pages/doc-info/doc-info'>
+         <image class="course-image" src='/images/study/timg2.jpg'></image>
+        </navigator>
+         <view class="plan">
+          <view class="plan-text">
+            已学习50%
+          </view> 
+        </view>
+      </view>
+      <view class="details">
+        <view class="course-name">
+          <view class="course-name-text">
+           OPC修炼之道
+          </view>
+        </view>
+        <view class="course-more">
+          <view class="teacher">
+            <view class="teacher-text">
+             张少强
+            </view> 
+          </view>
+          <view class="count">
+            <view class="count-img">  
+               <image class="count-image" src='/images/myStudy/allkecheng_home_person.png'>
+              </image>
+            </view>
+            <view class="num">
+              <view class="num-text">1309</view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="course">
+      <view class="course-img">
+        <navigator url='/pages/doc-info/doc-info'>
+         <image class="course-image" src='/images/study/timg1.jpg'></image>
+        </navigator>
+        <view class="plan">
+          <view class="plan-text">
+            已学习50%
+          </view> 
+        </view>
+      </view>
+      <view class="details">
+        <view class="course-name">
+          <view class="course-name-text">
+           测试溢出隐藏哈哈哈哈哈哈哈哈哈
+          </view>
+        </view>
+        <view class="course-more">
+          <view class="teacher">
+            <view class="teacher-text">
+             张少强
+            </view> 
+          </view>
+          <view class="count">
+            <view class="count-img">  
+              <image class="count-image" src='/images/myStudy/allkecheng_home_person.png'>
+              </image>
+            </view>
+            <view class="num">
+              <view class="num-text">1309</view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

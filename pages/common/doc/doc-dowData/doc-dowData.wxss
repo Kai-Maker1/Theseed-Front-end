@@ -1,0 +1,11 @@
+.sche-text-mes-tyle{
+  border-radius: 8rpx;
+
+  border: 1rpx solid #6ba8b2;
+
+  color: #6ba8b2;
+  padding: 0rpx 7rpx;
+
+  font-size: 22rpx;
+
+}

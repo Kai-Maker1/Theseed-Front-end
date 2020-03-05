@@ -1,0 +1,3 @@
+<!--pages/topics/myIss/myIss.wxml-->
+<import src="/pages/common/list/mesIss/mesIss.wxml" />
+<template is="mesIss" data="{{List}}"/>

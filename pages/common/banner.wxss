@@ -1,0 +1,44 @@
+/*导航begin*/
+
+.navlist {
+  background-color: white;
+  padding-top: 40rpx;
+  padding-left: 40rpx;
+  padding-right: 40rpx;
+}
+
+.navlist navigator {
+  width: 25%;
+  float: left;
+  margin-bottom: 40rpx;
+  text-align: center;
+  line-height: 30rpx;
+  font-size: 24rpx;
+  color: #222;
+  display: block;
+}
+
+.navlist navigator.navlist4n {
+  margin-right: 0;
+}
+
+.navlist image:first-child {
+  margin-bottom: 20rpx;
+}
+
+.navlist image {
+  width: 70rpx;
+  height: 70rpx;
+  margin: auto;
+  /* background-color: #222; */
+}
+
+
+.navlist navigator text {
+  display: block;
+  font-size: 27rpx;
+  line-height: 30rpx;
+  font-weight: 800rpx;
+}
+
+/*导航end*/

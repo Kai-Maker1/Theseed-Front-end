@@ -1,0 +1,64 @@
+/* pages/js-ex-res/js-ex-res.wxss */
+page{
+  background-color: #EEEEEE;
+}
+.js-ex-item{
+  width: 650rpx;
+  /* height: 280rpx; */
+  margin: 20rpx 25rpx;
+  padding: 25rpx 25rpx;
+  font-size: 24rpx;
+  
+  color: #888888;
+  line-height: 38rpx;
+
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 15rpx;
+}
+.ex-name{
+  font-size: 30rpx;
+  font-weight: 800;
+  line-height: 60rpx;
+  color: #000;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.item-main{
+  display: flex;
+}
+.item-right{
+  margin-left:40rpx;
+}
+.ex-time{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.ex-time-item{
+  display: flex;
+  flex-direction: column;
+  color: #222222;
+  margin-left: 10rpx;
+}
+.ex-other{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.ex-other-item{
+  width: 315rpx;
+  display: flex;
+  margin-top: 5rpx;
+}
+.ex-other-item-name{
+  width: 120rpx;
+  text-align: justify;
+  text-align-last: justify;
+}
+.ex-other-item-msg{
+  margin-left: 10rpx;
+  color: #222222;
+}

@@ -1,0 +1,16 @@
+<template name="scheStu" >
+
+
+  <view class='sche-item' wx:for="{{tempArray}}" wx:for-index="main">
+
+  <view class='sche-text-title' >{{item.chapterName}}</view>
+  <view wx:for="{{item.sectionList}}" wx:for-item="sec" wx:for-index="section">
+    <view class='sche-text-mes {{cc[main][section] == true ? "sche-active": ""}}'>{{sec.sectionName}}</view>
+  </view>
+  
+
+</view>
+
+
+
+</template>

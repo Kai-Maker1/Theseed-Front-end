@@ -1,0 +1,16 @@
+/* pages/login/login_stu/login_stu.wxss */
+
+@import "/pages/common/from/from.wxss";
+page{
+  background-color: #fff;
+}
+
+.image{
+  height: 200rpx;
+  width: 200rpx;
+  border-radius: 50%;
+  margin-top: 110rpx;
+  margin-bottom: 50rpx;
+  margin-left: 300rpx;
+  box-shadow: rgba(107,168,178,0.2) 0rpx 0rpx 30rpx 10rpx;
+}

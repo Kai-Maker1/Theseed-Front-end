@@ -1,0 +1,13 @@
+<!--pages/doc-ann/doc-ann.wxml-->
+<view class='ann-item ann-item-baco' >
+
+  <view class='ann-text-title'>直播在线课程答疑</view>
+  <view class='ann-text-time'>2018-9-11</view>
+
+</view>
+<view class='ann-item' >
+
+  <view class='ann-text-title'>直播在线课程答疑</view>
+  <view class='ann-text-msg'>2018-9-11</view>
+
+</view>

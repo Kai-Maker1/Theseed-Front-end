@@ -1,0 +1,5 @@
+/* pages/js-sel-class-s/js-sel-class-s.wxss */
+@import "../js-ex-res/js-ex-res.wxss";
+.class-ma{
+  margin: 0 40rpx;
+}

@@ -1,0 +1,273 @@
+/* pages/doc-all-class/doc-all-class.wxss */
+@import "/pages/common/list/study/study.wxss"
+/* 全局样式 */
+page, .page {
+  background-color: #EFEFEF;
+    height: 100%;
+    font-family: 'PingFang SC',
+                 'Helvetica Neue',
+                 Helvetica,
+                 'Droid Sans Fallback',
+                 'Microsoft Yachei',
+                 sans-serif;
+                 position: relative;
+}
+ 
+/* 侧边栏样式 */
+.page-slidebar {
+    height: 100%;
+    width: 750rpx;
+    position: fixed;
+    background-color:#EEEEEE;
+    z-index: 0;
+}
+ 
+/* 控制侧边栏的内容距离顶部的距离 */
+.page-content {
+    padding-top: 0rpx;
+}
+ 
+/* 侧边栏内容的 css 样式 */
+.wc {
+    color:black;
+    /* padding: 30rpx 0 30rpx 150rpx; */
+    background-color: #fff;
+    margin-top: 20rpx;
+}
+.wc-list{
+  height: 60rpx;
+  width: 562rpx;
+
+  border-bottom: 1rpx solid #D1D1D1;
+  padding: 10rpx;
+
+  font-size: 32rpx; 
+  line-height: 60rpx;
+
+}
+.wc-list-main{
+  display: flex;
+  flex: 0 0 580rpx;
+  /* background-color: #345; */
+  flex-direction: row;
+  justify-content: space-between;
+
+  font-weight: 800;
+}
+.wc-list image{
+  flex: 0 0 60rpx;
+  height: 60rpx;
+  width: 60rpx;
+   /*background-color: #595; */
+}
+.wc-list text{
+  flex: 1 1 auto;
+  justify-content: flex-start;
+  padding: 0 40rpx;
+  
+}
+.wc-list-item{
+  width: 500rpx;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 80rpx;
+  /* background-color: #645; */
+  justify-items: center;
+  
+  
+  
+}
+.wc-list-item-view{
+  
+  display: flex;
+  flex:  0 0 230rpx;
+  /* background-color: #465; */
+
+  height: 70rpx;
+
+
+  margin: 0 10rpx;
+  font-size: 32rpx;
+  line-height: 70rpx;
+  color: #777777;
+}
+ 
+/* 当屏幕向左滑动，出现侧边栏的时候，主页的动画样式 */
+/* scale：取值范围 0~1 ，表示屏幕大小是原来的百分之几，可以自己修改成 0.8 试下*/
+/* translate(60%,0%) 表示向左滑动的时候，侧边栏占用平时的宽度为 60%   */
+.c-state {
+    transform: rotate(0deg) scale(1) translate(75%, 0%);
+    -webkit-transform: rotate(0deg) scale(1) translate(75%, 0%);
+}
+ 
+/* 主页样式 */
+.page-top {
+    height: 100%;
+    position: fixed;
+    width: 750rpx;
+    background-color:#EFEFEF;
+    z-index: 0;
+    transition: All 0.4s ease;
+    -webkit-transition: All 0.4s ease;
+}
+/* 左上角图标的样式 */
+.page-top-image {
+    position: absolute;
+    width: 15rpx;
+    height: 30rpx;
+    margin: 5rpx 5rpx; 
+    left: 20rpx;
+    top: 20rpx;
+}
+ 
+/* 遮盖层样式 */
+.cover{
+    width: 100%;
+    height: 100%;
+    background-color:gray;
+    opacity:0.8;
+    z-index: 9000;
+}
+
+
+
+
+
+ /* 下拉显示 */
+.content{
+    /* margin-top: 100rpx;  */
+}
+
+.header {
+  width: 100%;
+  height: 80rpx;
+  position: fixed;
+  top: 0;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  text-align: center;
+  color: #313131;
+  font-size: 16px;
+  border-bottom: 1rpx solid #eeeeee;
+  z-index: 9999;
+  background-color: #fff;
+}
+
+
+ 
+.filterOrder {
+  position: relative;
+  flex:  0 0 250rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+}
+
+.order{
+  font-size:36rpx;
+}
+
+.header-image {
+  position: absolute;
+  right: 15rpx;
+  top: 26rpx;
+  width: 30rpx;
+  height: 30rpx;
+}
+ 
+.active {
+  color: #ef0001;
+}
+ 
+.mask {
+  width: 100%;
+  height: 150%;
+  position: fixed;
+  top: 80rpx;
+  background-color: rgba(15, 15, 26, 0.3);
+}
+ 
+
+.select {
+  color: #ffffff;
+  background-color: #ef0001;
+}
+.posContainer {
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+  /* overflow:auto; */
+}
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  color: transparent;
+}
+/*下拉框的title*/
+.title {
+  margin-top: 55rpx;
+  font-size: 32rpx;
+  margin-left: 28rpx;
+}
+
+.poscontent {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-top: -15rpx;
+}
+.tag {
+  
+  margin-left: 28rpx;
+  margin-top: 23rpx;
+  font-size: 13px;
+  width: 170rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  text-align: center;
+  border: 1rpx solid #e9e9e9;
+}
+.confirm {
+  width: 100%;
+  height: 150rpx;
+  border: 1rpx solid transparent;
+  background-color: #fff;
+}
+.weui-btn {
+  position: fixed;
+  width: 95%;
+  bottom: 52rpx;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.orderContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fff;
+  width: 100%;
+  height: 125rpx;
+}
+.block {
+  font-size: 13px;
+  width: 200rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  text-align: center;
+  border: 1rpx solid #e9e9e9;
+}
+
+.listContainer {
+  width: 100%;
+  height: 100%;
+  margin-top: 80rpx;
+}
+
+.rand90{
+  
+  transform: rotate(180deg);
+}

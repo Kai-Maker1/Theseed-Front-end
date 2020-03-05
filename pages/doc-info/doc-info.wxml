@@ -1,0 +1,38 @@
+<!--pages/doc-info/doc-info.wxml-->
+<import src="/pages/common/doc/doc-des/doc-des.wxml"/>
+<import src="/pages/common/doc/doc-sche/doc-sche.wxml"/>
+<import src="/pages/common/doc/doc-eval/doc-eval.wxml"/>
+<import src="/pages/common/doc/doc-ann/doc-ann.wxml"/>
+<import src="/pages/common/doc/doc-scheStu/doc-scheStu.wxml"/>
+<import src="/pages/common/doc/doc-dowData/doc-dowData.wxml"/>
+<import src="/pages/common/doc/doc-check/doc-check.wxml"/>
+<import src="/pages/common/doc/doc-dis/doc-dis.wxml"/>
+<!-- <image class='top-image' src='/images/study/timg1.jpg'></image> -->
+<video class='top-image' src='https://school-1258358792.cos.ap-beijing.myqcloud.com/douyin.mp4'></video>
+
+<!--可滑动切换tanbar begin-->
+<view class="nav-tabs">
+  <!-- 切换头 -->
+  <view class="tab-list  {{currentTab == idx?'active':'default'}}" wx:for="{{tabArray}}" wx:for-index="idx" wx:for-item="itemName" data-current="{{idx}}" bindtap="swichNav">{{itemName}}</view>
+</view>
+<!-- swiper begin -->
+<swiper current="{{currentTab}}" class="tab-content" duration="300" bindchange="bindChange">
+  <!-- item begin -->
+  <swiper-item wx:for="{{tabArray}}" wx:for-index="idx" wx:for-item="itemName" class="">
+
+
+    <!-- <view wx:for="{{data}}">
+      <template is="section" data="{{item}}" />
+    </view> -->
+    <view wx:if="{{isFin}}">
+     <template is="{{tabArrays[currentTab]}}" data="{{userStar,starNum,tempArray}}"  />
+    </view>
+  
+
+
+  </swiper-item>
+  <!-- item end -->
+</swiper>
+<!-- swiper end -->
+<!--可滑动切换tanbar end-->
+

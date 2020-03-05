@@ -1,0 +1,44 @@
+<!-- 评论
+https://blog.csdn.net/qq_24531461/article/details/80108379
+版权声明：本文为博主原创文章，转载请附上博文链接 
+评论星星有问题
+！ -->
+
+
+<template name="eval">
+  <view class='eval-item eval-item-lin'>
+    <view class="evalMath">
+      {{starNum}}分
+    </view>
+    <view bindtap="starTap" data-index="{{index}}" class="star" wx:for="{{starNum-0}}" wx:key="index">
+      <image src="{{userStar[0]}}"></image>
+
+
+    </view>
+    <view bindtap="starTap" data-index="{{index}}" class="star" wx:for="{{5-starNum}}" wx:key="index">
+      <image src="{{userStar[1]}}"></image>
+    </view>
+  </view>
+
+  <view class='eval-item eval-item-lin' wx:for="{{tempArray}}">
+    <view class='eval-item-row flex-wrp'>
+      <view>
+        <image class="eval-image" src="https://wx.qlogo.cn/mmopen/vi_32/hswEBEu6EibUagH62rjPNqq8P1gCUXoibOqo27QGVnycQ9etymDRjOGRnMJCQc6KPT2canialNjPxU6OCchtyHRlQ/132" />
+      </view>
+
+      <view class='eval-mItem'>
+       <view class='eval-stars'>
+          <view data-index="{{index}}" class="back" wx:for="{{item.score-0}}" >
+            <image src="{{userStar[0]}}"></image>
+          </view>
+          <view bindtap="starTap" data-index="{{index}}" class="back" wx:for="{{5-item.score}}" wx:key="index">
+            <image class='' src="{{userStar[1]}}"></image>
+          </view>
+        </view>
+        <view class='eval-name'>{{item.userNickname}}</view>
+       
+        <view class='eval-msg wordH1' >{{item.content}}</view>
+      </view>
+    </view>
+  </view>
+</template>

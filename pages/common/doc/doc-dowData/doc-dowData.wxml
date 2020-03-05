@@ -1,0 +1,22 @@
+<template name="dowData">
+<view class='sche-item' >
+
+  <view class='sche-text-title'>第1章   课程介绍</view>
+  <view class='sche-text-mes'>1-1 WEB前端开发课程介绍(04:27)</view>
+
+</view>
+<view class='sche-item' >
+
+  <view class='sche-text-title'>第1章   课程介绍</view>
+  <view class='sche-text-mes '>
+  <view>1-1 WEB前端开发课程介绍(04:27)
+  <text class='sche-text-mes-tyle'> ppt </text>
+  </view>
+  
+  <view> 
+    <image class='' src='/images/allCou/kejian_xiazai.png'></image>
+  </view>
+  </view>
+
+</view>
+</template>

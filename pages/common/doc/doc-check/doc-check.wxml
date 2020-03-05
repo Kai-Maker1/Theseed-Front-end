@@ -1,0 +1,23 @@
+<!-- 课程考核 -->
+<!-- 引入wxs脚本 -->
+<wxs src="./doc-check.wxs" module="tools" />
+<template name="check" >
+  <view class='check-item' wx:for="{{tempArray}}">
+
+    <view class='check-text-title'>{{item.testTitle}}测试考试</view>
+    <view class='check-text-time'>截止日期：{{tools.sub(item.endtime)}}</view>
+    <view class='check-msg'>
+      <view class=''>
+      总分{{item.totalPoints}}分
+      </view>
+      <view class='check-text-math green' wx:if="{{item.status}}">
+        查看成绩
+      </view>
+       <view class='check-text-math red' wx:else>
+        开始考试
+      </view>
+    </view>
+
+  </view>
+  
+</template>

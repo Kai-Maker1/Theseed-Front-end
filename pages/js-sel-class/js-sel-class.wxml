@@ -1,0 +1,29 @@
+<!--pages/js-sel-class/js-sel-class.wxml-->
+<view class='sel-class-top'>
+  <view bindtap="bind" data-id='1'>
+    <picker bindchange="bindPickerChange" value="{{index}}" range="{{arrays[0]}}"id="0"> 
+      <view class="picker">{{top[0]}}</view>
+    </picker>
+  </view>
+  <view bindtap="bind" data-id='2'><picker bindchange="bindPickerChange" value="{{index}}" range="{{arrays[1]}}" id="1">
+      <view class="picker">{{top[1]}}</view>
+    </picker>
+  </view>
+  <view bindtap="bind" data-id='3'><picker bindchange="bindPickerChange" value="{{index}}" range="{{arrays[2]}}" id="2">
+      <view class="picker">{{top[2]}}区</view>
+    </picker></view>
+</view>
+
+<!-- https://blog.csdn.net/abs1004/article/details/78922596 -->
+<view class='vont'>
+  <checkbox-group bindchange="checkboxChange" class="checkbox" >
+       <label  wx:for="{{cartArr}}" >
+           <checkbox value="{{index}}"></checkbox>
+           <view>第{{item}}节课</view>
+           <!-- 其他布局代码 -->    
+       </label>   
+   </checkbox-group>
+
+</view>
+
+<button class='btn' bindtap='sureSel'>确认查询</button>

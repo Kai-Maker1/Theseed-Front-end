@@ -1,0 +1,138 @@
+/* pages/mytimetable/mytimetable.wxss */
+/* 时间列表 */
+page{
+  background-color:#eee;
+}
+.time-list{
+  width:750rpx;
+  height:80rpx;
+  background-color:#fff;
+  display: flex;
+}
+.time-data{
+  width:90rpx;
+  height:70rpx；
+}
+.month-number{
+  color:#db1b16;
+  font-size:40rpx;
+  line-height:80rpx;
+  font-weight:800;
+  /* background-color: #eee; */
+  margin-left:26rpx;
+}
+.month-text{
+  color:#db1b16;
+  font-size:20rpx;
+}
+.data-number{
+  width:90rpx;
+  font-size: 30rpx;
+  line-height: 80rpx;
+  text-align: center;
+}
+.sel{
+  width:90rpx;
+}
+.data-sel{
+  width:10rpx;
+  height:10rpx;
+  background-color: #db1b16;
+  border-radius: 5rpx;
+  margin-left: 40rpx;
+  margin-top:-16rpx;
+}
+.next-image{
+  width:14rpx;
+  height:26rpx;
+  margin-top:26rpx;
+  margin-left:8rpx;
+}
+.course{
+  height: 160rpx;
+  width: 710rpx;
+  margin-left:20rpx;
+  margin-top:20rpx;
+  border-radius: 30rpx;
+  background-color: #fff;
+  letter-spacing: 3rpx;
+  -webkit-box-shadow: 4px 4px 12px 2px rgba(214,214,214,0.8);
+  -moz-box-shadow: 4px 4px 12px 2px rgba(214,214,214,0.8);
+  box-shadow: 4px 4px 12px 2px rgba(214,214,214,0.8);
+  display: flex;
+}
+.course-left{
+  margin-left:36rpx;
+  padding-top: 20rpx;
+}
+.course-num{
+  font-size: 26rpx;
+  color:#db1b16;
+  font-weight: 600;
+}
+.course-name{
+  font-size: 30rpx;
+  font-weight: 500;
+  margin-top:6rpx;
+}
+.teacher-name{
+  font-size:24rpx;
+  margin-top:6rpx;
+  color: #333;
+}
+.course-time{
+  font-size:24rpx;
+  margin-top:6rpx;
+  color: #333;
+  margin-left:20rpx;
+}
+.course-room{
+
+  position: absolute;
+  margin-top:90rpx;
+  right:100rpx;
+}
+.room-text{
+  font-size:32rpx;
+  font-weight: 300;
+}
+.course-sign1{
+  position: absolute;
+  margin-top:40rpx;
+  right:24rpx;
+  width:8rpx;
+  height:80rpx;
+  background-color:rgba(219,27,22,1);
+}
+.course-sign2{
+  position: absolute;
+  margin-top:40rpx;
+  right:24rpx;
+  width:8rpx;
+  height:80rpx;
+  background-color:rgba(219,27,22,0.8);
+}
+.course-sign3{
+  position: absolute;
+  margin-top:40rpx;
+  right:24rpx;
+  width:8rpx;
+  height:80rpx;
+  background-color:rgba(219,27,22,0.6);
+}
+.course-sign4{
+  position: absolute;
+  margin-top:40rpx;
+  right:24rpx;
+  width:8rpx;
+  height:80rpx;
+  background-color:rgba(219,27,22,0.4);
+}
+.course-sign5{
+  position: absolute;
+  margin-top:40rpx;
+  right:24rpx;
+  width:8rpx;
+  height:80rpx;
+  background-color:rgba(219,27,22,0.2);
+}

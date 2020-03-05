@@ -1,0 +1,17 @@
+.ann-item{
+  background-color: #fff;
+  margin-top: 15rpx;
+  padding: 10rpx 50rpx;
+  display: flex;
+  flex-direction: column;
+}
+.ann-text-title{
+  font-size: 32rpx;
+  line-height: 60rpx;
+
+}
+.ann-text-time{
+font-size: 22rpx;
+line-height: 28rpx;
+color: #6D6D6D;
+}

@@ -1,0 +1,23 @@
+/* pages/verify/verify.wxss */
+@import "/pages/common/from/from.wxss";
+.ver_TopImage{
+  margin: 50rpx auto;
+  width: 100rpx;
+  height: auto;
+
+
+}
+.ver_TopImage image{
+  width: 80rpx;
+  height: 80rpx;
+  margin: 0 10rpx;
+
+}
+.ver_TopImage text{
+
+  line-height: 48rpx;
+  font-size: 24rpx;
+  font-weight: 800;
+  text-align: center;
+  color: #cbe9fc;
+}

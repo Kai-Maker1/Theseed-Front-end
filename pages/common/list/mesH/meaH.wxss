@@ -1,0 +1,129 @@
+/* .mea-item{
+
+}
+.mea-item-left{
+
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content:space-between;
+  flex: 1 1 auto;
+}
+
+ .mea-image{
+
+}
+ .mea-duoL{
+  flex-direction: column;
+  align-items: baseline;
+  justify-content:space-around;
+}
+ .mea-duoL view{
+  flex: 1 1 auto；
+}
+.mea-right{
+   
+} */
+
+
+
+
+.mes-item{
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content:space-between;
+  /* background-color: #456; */
+}
+.mes-left{
+  flex-flow: row nowrap ;
+ 
+  background-color: #568;
+}
+.mes-right{
+  flex-flow: row-reverse nowrap  ;
+  
+  background-color: #962;
+}
+.mes-dan{
+ flex: 0;
+ justify-content: center;
+ justify-items: center;
+ margin: 20rpx;
+}
+.mes-duo{
+  flex-flow: column nowrap;
+ 
+ justify-content: center;
+ justify-items: center;
+}
+
+
+.list-item{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 120rpx;
+  margin-top: 28rpx;
+  border-radius: 3px;
+  box-shadow: 1px 2px 3px #ddd;
+  padding: 0 30rpx;
+  color: #000;
+  background-color: #fff;
+
+}
+
+.list-item-image{
+  flex: 0 0 80rpx;
+  height: 80rpx;
+  width: 80rpx;
+  border-radius: 50%;
+  
+  margin:0 25rpx;
+}
+.list-item-left{
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  padding-right: 10rpx;
+  align-items: flex-start;
+  
+}
+.list-item-top{
+  /* background-color: #345; */
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  padding-right: 10rpx;
+  justify-content: space-between;
+  margin-bottom: 15rpx;
+ 
+}
+.list-item-title{
+  font-size: 32rpx;
+  
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 10rpx;
+  
+}
+.list-item-text{
+  font-size: 18rpx;
+  line-height: 125%;
+ 
+}
+.list-item-time{
+  
+  font-size: 24rpx;
+  margin-right: 10rpx;
+  color: #a0a0a0;
+}
+.list-item-icon{
+  flex: 0 0 60rpx;
+  height: 60rpx;
+  width: 60rpx;
+  border-left: 1px solid #fff;
+  padding-left: 25rpx;
+}

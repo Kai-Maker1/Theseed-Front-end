@@ -1,0 +1,15 @@
+<template name="mesDow">
+
+  <view class="list-item new">
+    <view class="list-item-image">
+      <view class='list-item-image-back'>
+      </view>
+      <image class='list-item-image-image' src='/images/个人图标/案例.jpg'></image>
+    </view>
+      <view class="list-item-left">
+        <text class="list-item-title">挑战吧太空</text>
+        <text class="list-item-time">哈哈哈</text>
+      </view>
+      <image class="list-item-icon" src="/images/查看三角.png"></image>
+    </view>
+</template>

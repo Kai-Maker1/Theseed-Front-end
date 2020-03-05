@@ -1,0 +1,50 @@
+<!--pages/js-ex-res/js-ex-res.wxml-->
+<view class="js-ex-item">
+  <view class="ex-name">大数据与云计算</view>
+  <view class='ex-time'>
+    <view class='ex-other-item-name'>考试时间</view>:
+    <view class='ex-time-item'>
+    <text>12月25日(星期二)</text>
+    <text>15：40-17：40</text>
+  </view>
+  </view>
+  <view class="item-main">
+  <view class="item-left">
+   <view class='ex-other-item'> 
+     <view class='ex-other-item-name'>类别</view>:
+     <view class='ex-other-item-msg'>专业选修</view>
+   </view>
+   <view class='ex-other-item'> 
+     <view class='ex-other-item-name'>班级人数</view>:
+     <view class='ex-other-item-msg'>36</view>
+   </view>
+   <view class='ex-other-item'> 
+     <view class='ex-other-item-name'>考试地点</view>:
+     <view class='ex-other-item-msg'>玻璃楼</view>
+   </view>
+  </view>
+  <view class="item-right">
+    <view class='ex-other-item'> 
+     <view class='ex-other-item-name'>重修人数</view>:
+     <view class='ex-other-item-msg'>25</view>
+    </view>
+    <view class='ex-other-item'> 
+     <view class='ex-other-item-name'>考试形式</view>:
+     <view class='ex-other-item-msg'>闭卷</view>
+    </view>
+    <view class='ex-other-item'> 
+     <view class='ex-other-item-name'>备注</view>:
+     <view class='ex-other-item-msg'>无</view>
+   </view>
+  </view>
+  </view>
+</view>
+
+
+<!-- <view class='js-ex-item'>
+  <view class='ex-name'>大数据与云计算</view>
+  
+  
+  
+  </view>
+</view> -->

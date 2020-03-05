@@ -1,0 +1,19 @@
+<!--pages/common/list/mesIss/mesIss.wxml-->
+<template name="mesIss">
+<view class='list-year'>2018</view>
+  <view class="list-item ">
+<view class='list-item-time'>
+  <span>10</span>
+  1月
+</view>
+
+
+  <image class="list-item-image" src="https://wx.qlogo.cn/mmopen/vi_32/t4hk1opmAYRhPUuE0WGm5CHha5WEXCzyXUwtDDEWx9CoVqK6JtI5xujol3MWfyWxxZjR5fYDzXJ70g94HTdKicw/132"></image>
+
+    <view class="list-item-left">
+   
+            <text class="list-item-title flex-wrp">挑战吧太开始发售艰苦的环境开发哈师大复活卡还是啊手动阀手动阀哈师大发哈数据库的发哈即可</text>
+            
+      </view>
+  </view>
+</template>

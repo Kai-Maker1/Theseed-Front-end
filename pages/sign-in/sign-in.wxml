@@ -1,0 +1,18 @@
+<!--pages/sign-in/sign-in.wxml-->
+<view class="main">
+  <view class="picture">
+    <view class="bgimg">
+      <image class="img" src="/images/myStu/signin.png"></image>
+    </view>
+    <view class="text1">签到成功</view>
+    <view class="text2">已连续上课签到{{num}}天</view>
+    <view class="text4">获得1积分</view>
+    <view class="text3">每连续签到7天获得鲜花一枚</view>
+    <view class="ok">
+      <navigator url='/pages/mycalendar/mycalendar'>
+        <!-- 随便做了一个连接做测试 -->
+       <view class="ok-text">确  定</view>
+      </navigator>
+    </view>
+  </view>
+</view>

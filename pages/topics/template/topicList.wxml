@@ -1,0 +1,14 @@
+<template name="topicList">
+<view class="my">
+    <view class="my-item flex-wrp" wx:for="{{List}}">
+      <view class="myitem-icon flex-item" >
+      <image src='{{item.Icon}}'></image>
+        
+      </view>
+      <view class="myitem-name flex-item" bindtap='skipUserBasMes' data-id="{{item.id}}">
+        <text>{{item.Text}}</text>
+      </view>
+    </view>
+
+  </view>
+  </template>

@@ -1,0 +1,8 @@
+<view class='ver_TopImage'>
+<image src='/images/user/wode_renzheng.png'></image>
+<text>身份验证</text>
+</view>
+<!--pages/verify/verify.wxml-->
+<import src="../common/from/from.wxml" />
+<!-- <text>pages/verify/verify.wxml</text> -->
+<template is="verFrom" data="{{verList}}" />

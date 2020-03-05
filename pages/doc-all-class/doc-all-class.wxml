@@ -1,0 +1,114 @@
+<!--pages/doc-all-class/doc-all-class.wxml-->
+<import src="/pages/common/list/study/study" />
+<view class="page">
+  <!-- 侧边栏内容 -->
+  <view class="page-slidebar ">
+    <view class="page-content">
+      
+      <view wx:for="{{leftList}}"class="wc" wx:for-index="indexMain" >
+        <view class=" wc-list wc-list-main {{leftListMainindex==indexMain && leftListindex == 'null'? 'active':''}}" bindtap='leftbind' data-indexMain='{{indexMain}}' data-index='null' >
+        <image  src=''></image>
+        <text > {{item.name}}</text>
+       
+        <image  src=''></image>
+        </view>
+        <view  class='  wc-list-item' >
+        <view wx:for="{{item.arrays}}" class=" wc-list-item-view {{leftListMainindex==indexMain && leftListindex==index+1 ? 'active':''}}"  bindtap='leftbind' data-indexMain='{{indexMain}}' data-index='{{index+1}}'  >{{item.name}}</view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <!-- 主页内容 -->
+
+  <!-- （open ? 'c-state' : ''）三元运算符： -->
+  <!-- 1.默认情况下 open 为 false -->
+  <!-- 2.当点击左上角图标的时候或者屏幕向左滑动，open 变化 true -->
+  <!-- 3.当 open 为 true 时，会加上类名为 c-state 和 cover 的 css 样式 -->
+
+  <!-- bindtouchstart、 bindtouchmove、bindtouchend -->
+  <!-- 当手指触摸屏幕并滑动时，所触发的三个函数 -->
+  <view bindtouchmove="tap_drag" bindtouchend="tap_end" bindtouchstart="tap_start" class="page-top {{open ? ['c-state','cover'] : ''}} ">
+
+
+
+
+
+
+    <!-- 下拉弹出功能begin -->
+    
+    <view class=" {{isMask?'mask':''}}">
+      <view class="header">
+        
+        <image class='page-top-image ' bindtap="tap_ch" src="{{open==true?'/images/jsMan/left.png':'/images/jsMan/kebiao_next.png'}}"></image>
+
+        <view class="filterOrder {{status=='3'&& isActive?'active':''}}" data-status='3' bindtap="changeStatus">
+          <view class="order">类别</view>
+          <image class='header-image ' src="{{isActive==true?'/images/jsMan/login_xiala.png':'/images/jsMan/up.png'}}" />
+        </view>
+      </view>
+      <block wx:if="{{isActive==true&&status=='3'}}">
+        <scroll-view scroll-y="true" class="posContainer">
+          <block wx:for="{{1}}" data-indexMain='index' wx:for-index='indexMain'>
+            <view class="title">状态</view>
+            <view class="poscontent">
+              <view wx:for="{{topList}}" wx:for-item="type" wx:key='id' wx:for-index="index" data-index="{{index}}">
+                <view class="tag {{index==curIndex[indexMain]?'select':''}}" data-id="{{type.courseStatustwoId-1}}" data-indexMain='{{indexMain}}' bindtap="multiSelect">
+                
+                
+                {{type.status}}</view>
+              </view>
+            </view>
+          </block>
+          <view class="confirm">
+            <button class="weui-btn" type="warn" bindtap='changeStatusUp'>确认</button>
+          </view>
+        </scroll-view>
+      </block>
+
+      
+      <view class="listContainer">
+     
+        <view  wx:key="index" data-index="{{index}}">
+          
+          <template is="study" data="{{arrays}}"  />
+          
+        </view>
+      </view>
+    </view>
+
+    <!-- 下拉弹出功能end -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </view>
+</view>

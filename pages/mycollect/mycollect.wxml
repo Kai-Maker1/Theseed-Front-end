@@ -1,0 +1,66 @@
+<!--pages/mycourse/mycourse.wxml-->
+<!-- 我不太清楚那个复用怎么使就自己写了一个 -->
+<wxs src="./utl.wxs" module="tools" />
+<import src="/pages/common/list/study/study" />
+
+<view class="all" wx:if="{{arrays.length!=0}}">
+  <view class="top-tiitle">
+    <view class="top-title-text">
+        {{msgArrays[msgId].title}}({{num}})
+    </view>
+  </view>
+  <view class="mian">
+    <template is="course" data ="{{arrays}}"/>
+      </view>
+</view>
+
+<view class="whole" wx:else="{{arrays.length==0}}">
+  <image class="img" src='/images/myStuQ/{{msgArrays[msgId].imgName}}'></image>
+  <view class="title">
+   您还没有{{msgArrays[msgId].str}}任何课程~
+  </view>
+</view>
+
+
+<template name="course" >
+
+<view class="course" wx:for="{{arrays}}">
+      <view class="course-img">
+        <navigator url='/pages/doc-info/doc-info'>
+         <image class="course-image" src='{{item.courseInfo.picture}}'></image>
+        </navigator>
+         <view class="plan">
+          <view class="plan-text">
+            已学习50%
+          </view> 
+        </view>
+      </view>
+      <view class="details">
+        <view class="course-name">
+          <view class="course-name-text">
+           {{item.courseInfo.courseName}}
+          </view>
+        </view>
+        
+        <view class="course-more">
+        
+          <view class="teacher">
+            <view class="teacher-text">
+             {{tools.sub(item.courseInfo.endtime)}}
+            </view> 
+          </view>
+          <view class="count">
+            <view class="count-img">  
+               <image class="count-image" src='/images/myStu/allkecheng_home_person.png'>
+              </image>
+            </view>
+            <view class="num">
+              <view class="num-text">{{item.courseInfo.studyCount}}</view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  
+
+</template>

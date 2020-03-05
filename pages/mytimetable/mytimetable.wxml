@@ -1,0 +1,109 @@
+<!--pages/mytimetable/mytimetable.wxml-->
+ <!-- 时间列表 -->
+<view class="time-list">
+  <view class="time-data">
+     <text class="month-number">1</text>
+     <text class="month-text">月</text>
+  </view>
+  <view class="time-data">
+     <view class="data-number">5</view>
+  </view>
+   <view class="time-data">
+     <view class="data-number">6</view>
+  </view>
+   <view class="time-data">
+     <view class="data-number">7</view>
+     <!-- 选中 -->
+     <view class="data-sel"></view>
+  </view>
+  <view class="time-data">
+     <view class="data-number">8</view>
+  </view>
+  <view class="time-data">
+     <view class="data-number">9</view>
+  </view>
+  <view class="time-data">
+     <view class="data-number">10</view>
+  </view>
+  <view class="time-data">
+     <view class="data-number">11</view>
+  </view>
+  <view class="more">
+    <view class="next-img">
+      <image class="next-image" src='/images/myStu/xuexi_next.png'></image>
+    </view>
+  </view>
+</view>
+<!-- 课程表 -->
+  <view class="timetable">
+    <view class="course">
+      <view class="course-left">
+        <view class="course-num">第一节课</view>
+        <view class="course-name">计算机组成原理</view>
+        <text class="teacher-name">刘洋</text>
+        <text class="course-time">12:25-13:35</text>
+      </view>
+      <view class="course-right">
+        <view class="course-room">
+          <view class="room-text">劝学楼B307</view>
+        </view>
+      </view>
+      <view class="course-sign1"></view>
+    </view>
+    <view class="course">
+      <view class="course-left">
+        <view class="course-num">第二节课</view>
+        <view class="course-name">计算机组成原理</view>
+        <text class="teacher-name">刘洋</text>
+        <text class="course-time">12:25-13:35</text>
+      </view>
+      <view class="course-right">
+        <view class="course-room">
+          <view class="room-text">劝学楼B307</view>
+        </view>
+      </view>
+      <view class="course-sign2"></view>
+    </view>
+    <view class="course">
+      <view class="course-left">
+        <view class="course-num">第三节课</view>
+        <view class="course-name">计算机组成原理</view>
+        <text class="teacher-name">刘洋</text>
+        <text class="course-time">12:25-13:35</text>
+      </view>
+      <view class="course-right">
+        <view class="course-room">
+          <view class="room-text">劝学楼B307</view>
+        </view>
+      </view>
+      <view class="course-sign3"></view>
+    </view>
+    <view class="course">
+      <view class="course-left">
+        <view class="course-num">第四节课</view>
+        <view class="course-name">计算机组成原理</view>
+        <text class="teacher-name">刘洋</text>
+        <text class="course-time">12:25-13:35</text>
+      </view>
+      <view class="course-right">
+        <view class="course-room">
+          <view class="room-text">劝学楼B307</view>
+        </view>
+      </view>
+      <view class="course-sign4"></view>
+    </view>
+    <view class="course">
+      <view class="course-left">
+        <view class="course-num">第五节课</view>
+        <view class="course-name">计算机组成原理</view>
+        <text class="teacher-name">刘洋</text>
+        <text class="course-time">12:25-13:35</text>
+      </view>
+      <view class="course-right">
+        <view class="course-room">
+          <view class="room-text">劝学楼B307</view>
+        </view>
+      </view>
+      <view class="course-sign5"></view>
+    </view>
+  </view>

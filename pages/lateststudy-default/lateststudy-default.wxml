@@ -1,0 +1,7 @@
+<!--pages/lateststudy-default/lateststudy-default.wxml-->
+<view class="whole">
+  <image class="img" src='/images/myStuQ/zuijinxuexi.png'></image>
+  <view class="title">
+   您还没有学习记录，快去学习吧~
+  </view>
+</view>

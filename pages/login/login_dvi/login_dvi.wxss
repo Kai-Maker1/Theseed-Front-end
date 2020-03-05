@@ -1,0 +1,32 @@
+/* pages/login/login_dvi/login_dvi.wxss */
+page{
+  background-color: #EFEFEF;
+}
+.div-item{
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  width:702rpx;
+  height: 300rpx;
+  margin:30rpx 24rpx;
+  border-radius: 10rpx;
+  /* border: 1rpx #000 solid; */
+}
+.div-item-image{
+  display: flex;
+  flex: 0 0 150rpx;
+  height: 150rpx;
+  width: 150rpx;
+  border-radius: 50%;
+  margin-top: 0rpx;
+  margin-left: 275rpx;
+}
+.div-item-text{
+  display: flex;
+  width: 750rpx;
+  text-align: center;
+  margin-top: 30rpx;
+  margin-left: 275rpx;
+}

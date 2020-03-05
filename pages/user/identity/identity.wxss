@@ -1,0 +1,149 @@
+/* pages/user/identity/identity.wxss */
+page{
+  background-color: #eee;
+}
+.logo-image{
+  width:104rpx;
+  height:97rpx;
+  margin-left:323rpx;
+  margin-top:70rpx;
+  border-radius: 50%;
+}
+.input-textPa{
+  font-size: 32rpx;
+  
+}
+.radio{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 20rpx 30rpx;
+}
+.radio label{
+  margin: 0 5rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 32rpx;
+}
+/* 选中后的 背景样式 （红色背景 无边框 可根据UI需求自己修改） */
+radio .wx-radio-input.wx-radio-input-checked{
+   border: none;
+   background: red;
+}
+/* 选中后的 对勾样式 （白色对勾 可根据UI需求自己修改） */
+radio .wx-radio-input.wx-radio-input-checked::before{
+   border-radius: 50%;/* 圆角 */
+   width: 40rpx; /* 选中后对勾大小，不要超过背景的尺寸 */
+   height: 40rpx; /* 选中后对勾大小，不要超过背景的尺寸 */
+   line-height: 40rpx;
+   text-align: center;
+   font-size:30rpx; /* 对勾大小 30rpx */
+   color:#fff; /* 对勾颜色 白色 */
+   background: transparent;
+   transform:translate(-50%, -50%) scale(1);
+   -webkit-transform:translate(-50%, -50%) scale(1);
+}
+
+.banner-text{
+  width:750rpx;
+  color:#333;
+  font-size:36rpx;
+  text-align: center;
+  margin-top:20rpx;
+  font-weight:600;
+}
+.list1{
+  width:690rpx;
+  height:200rpx;
+  margin-top:80rpx;
+  margin-left:30rpx;
+  background-color:#fff;
+  border-radius: 20rpx;
+}
+.list2{
+  width:690rpx;
+  height:300rpx;
+  margin-top:20rpx;
+  margin-left:30rpx;
+  background-color:#fff;
+  border-radius: 20rpx;
+}
+
+.name,.sex,.school,.grade,.major{
+  width:690rpx;
+  height:100rpx;
+  display: flex;
+}
+.name,.school,.major{
+ border-bottom: 1rpx #ddd solid;
+}
+.name-text,.sex-text,.school-text,.major-text,.grade-text{
+  width:140rpx;
+  height:100rpx;
+  text-align: center;
+  line-height: 100rpx;
+  font-size:30rpx;
+  /* background-color: #333; */
+}
+.name-input,.sex-input,.school-input,.major-input{
+  width:550rpx;
+  height:100rpx;
+  /* background-color: #dffdfd; */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.grade-input{
+  width:460rpx;
+  height:100rpx;
+  
+}
+.grade-show{
+  height:100rpx;
+  color:#888;
+  font-size:26rpx;
+  line-height: 100rpx;
+}
+
+.ensure{
+  width:300rpx;
+  height:80rpx;
+  background-color: #6ba8b2;
+  border-radius: 20rpx;
+  margin-top:40rpx;
+  margin-left: 224rpx;
+}
+
+.ensure-text{
+  color:#fff;
+   background-color: #6ba8b2;
+  font-size:32rpx;
+  width:300rpx;
+  height:80rpx;
+  line-height:80rpx;
+  font-weight: 600rpx;
+  text-align: center;
+}
+.mask{
+  width:100%;
+  height:100%;
+  position:fixed;
+  background-color:#999;
+  z-index:9998;
+  top:0;
+  left:0;
+  opacity:0.5;
+}
+.content-container{
+  width:490rpx;
+  height:200rpx;
+  background-color: #fff;
+  border-radius: 20rpx;
+  position: absolute;
+  top:300rpx;
+  left:130rpx;
+  z-index:9999;
+  text-align: center;
+  line-height: 200rpx;
+}

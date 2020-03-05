@@ -1,0 +1,191 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"nodeModules": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.4.2",
+	"appid": "wx542b5e86d7797b30",
+	"projectname": "2019%E5%B9%B4%E6%AF%94%E8%B5%9B",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 9,
+			"list": [
+				{
+					"id": -1,
+					"name": "万能模板编译",
+					"pathName": "pages/allPow/test",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "我的",
+					"pathName": "pages/topics/topics",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "验证",
+					"pathName": "pages/verify/verify",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "教务系统登陆",
+					"pathName": "API/schoolSys/schoolSys",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "课表",
+					"pathName": "pages/schedule/schedule",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "登录-选择",
+					"pathName": "pages/login/login_dvi/login_dvi",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "登录-学生",
+					"pathName": "pages/login/login_stu/login_stu",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "学习",
+					"pathName": "pages/study/study",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "文档-详细课程页面",
+					"pathName": "pages/doc-info/doc-info",
+					"query": ""
+				},
+				{
+					"id": 9,
+					"name": " 答疑",
+					"pathName": "pages/doc-dis/doc-dis",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": " 答疑-详细",
+					"pathName": "pages/doc-dis/doc-all-dis/doc-all-dis",
+					"query": ""
+				},
+				{
+					"id": 19,
+					"name": "课程公告",
+					"pathName": "pages/doc-ann/doc-ann",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "教学打卡",
+					"pathName": "pages/js-card/js-card",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": " 教学管理打卡记录",
+					"pathName": "pages/js-card-log/js-card-log",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": " 教学管理 教学考评",
+					"pathName": "pages/js-check/js-check",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 23,
+					"name": " 教学管理考试",
+					"pathName": "pages/js-exam/js-exam",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 24,
+					"name": " 教学管理考试安排",
+					"pathName": "pages/js-ex-res/js-ex-res",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 25,
+					"name": " 教学管理考试详细成绩",
+					"pathName": "pages/js-exam-ress/js-exam-ress",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 18,
+					"name": " 教学管理考评详细",
+					"pathName": "pages/js-check-s/js-check-s",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": " 教学管理查询教室",
+					"pathName": "pages/js-sel-class/js-sel-class",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 20,
+					"name": "首页-选择课程",
+					"pathName": "pages/doc-all-class/doc-all-class",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": " 教学管理教室",
+					"pathName": "pages/js-sel-class-s/js-sel-class-s",
+					"query": "",
+					"scene": null
+				}
+			]
+		}
+	}
+}

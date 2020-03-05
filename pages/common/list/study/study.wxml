@@ -1,0 +1,32 @@
+<template name="study" >
+
+  <view class="list-item " wx:for="{{arrays}}">
+
+    <image class="list-item-image  " src="{{item.course.picture}}"></image>
+
+
+    <view class="list-item-left">
+      <view class="list-item-icon red  ">{{item.course.classifyName}}</view>
+      <view class='list-item-top'>
+
+
+        <text class="list-item-title flex-wrp wordH1">{{item.course.courseName}}</text>
+
+
+      </view>
+      <text class="list-item-text">{{item.course.teacherName}}</text>
+      <view class='list-item-num flex-wrp'>
+        <text>已预约{{item.course.studyCount}}人 </text>
+      </view>
+      <view class="list-item-bottom">
+        <text class="list-item-time flex-wrp">2019-01-22 18:00</text>
+
+        <text class='list-item-state flex-wrp {{item.status=="未参加"?"start-or":(item.status=="学习中"?"state-red":(item.status=="预约中"?"state-green":(item.status=="学习结束"?"start-or":"")))}} '>{{item.status}}</text>
+      </view>
+      
+    </view>
+
+  </view>
+
+   
+</template>

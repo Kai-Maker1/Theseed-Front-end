@@ -1,0 +1,264 @@
+page{
+  background-color: #eee;
+}
+.study-graph{
+  background-color: #283957;
+  width:750rpx;
+  height:350rpx;
+  position: relative;
+}
+/* 横向分割线 */
+.line1{
+  position: absolute;
+  width:750rpx;
+  height:4rpx;
+  top:100rpx;
+  background-color: #25344e;
+}
+.line2{
+  position: absolute;
+  width:750rpx;
+  height:4rpx;
+  top:200rpx;
+  background-color: #25344e;
+}
+.line3{
+  position: absolute;
+  width:750rpx;
+  height:4rpx;
+  top:300rpx;
+  background-color: #25344e;
+}
+/* 竖向分割线 */
+.line4{
+  position: absolute;
+  width:3rpx;
+  height:300rpx;
+  background-color: #c0c0c0;
+  left:374rpx;
+}
+.first-day{
+  position: absolute;
+  width:100rpx;
+  height:350rpx;
+  /* background-color: #ccc; */
+  left:28rpx;
+}
+.second-day{
+  position: absolute;
+  width:100rpx;
+  height:350rpx;
+  /* background-color: #ccc; */
+  left:128rpx;
+}
+.third-day{
+  position: absolute;
+  width:100rpx;
+  height:350rpx;
+  /* background-color: #ccc; */
+  left:228rpx;
+}
+.fourth-day{
+  position: absolute;
+  width:100rpx;
+  height:350rpx;
+  /* background-color: #ccc; */
+  left:328rpx;
+}
+
+.study-time1{
+  width:100rpx;
+  margin-top:260rpx;
+  /* 300-tube.height-20 */
+}
+.study-time2{
+  width:100rpx;
+  margin-top:180rpx;
+  /* 300-tube.height-20 */
+}
+.study-time3{
+  width:100rpx;
+  margin-top:130rpx;
+  /* 300-tube.height-20 */
+}
+.study-time4{
+  width:100rpx;
+  margin-top:200rpx;
+  /* 300-tube.height-20 */
+}
+.time-text{
+  color:#fff;
+  font-size:20rpx;
+  width:100rpx;
+  text-align: center;
+}
+.study-tube1{
+  width:20rpx;
+  height:20rpx;
+  border-radius: 10rpx 10rpx 0rpx 0rpx;
+  background-image: linear-gradient(rgba(46,239,215,1),rgba(46,239,21,0)); 
+  /* background-color: #27eed5; */
+  margin-left:40rpx;
+  margin-top:6rpx;
+}
+.study-tube2{
+  width:20rpx;
+  height:100rpx;
+  border-radius: 10rpx 10rpx 0rpx 0rpx;
+  background-image: linear-gradient(rgba(46,239,215,1),rgba(46,239,21,0)); 
+  /* background-color: #27eed5; */
+  margin-left:40rpx;
+  margin-top:6rpx;
+}
+.study-tube3{
+  width:20rpx;
+  height:150rpx;
+  border-radius: 10rpx 10rpx 0rpx 0rpx;
+  background-image: linear-gradient(rgba(46,239,215,1),rgba(46,239,21,0)); 
+  /* background-color: #27eed5; */
+  margin-left:40rpx;
+  margin-top:6rpx;
+}
+.study-tube4{
+  width:20rpx;
+  height:80rpx;
+  border-radius: 10rpx 10rpx 0rpx 0rpx;
+  background-image: linear-gradient(rgba(46,239,215,1),rgba(46,239,21,0)); 
+  /* background-color: #27eed5; */
+  margin-left:40rpx;
+  margin-top:6rpx;
+}
+.study-data{
+  position: absolute;
+  top:310rpx;
+}
+.data-text{
+  width:100rpx;
+  text-align: center;
+  color:#fff;
+  font-size:20rpx;
+}
+/* 个人 */
+.person{
+  display: flex;
+  height:100rpx;
+  margin-top:30rpx;
+  margin-left:40rpx;
+}
+.person-image{
+  width:100rpx;
+  height:100rpx;
+  border-radius:50rpx;
+}
+.person-name{
+  font-size:32rpx;
+  line-height: 100rpx;
+  font-weight:700;
+  margin-left:30rpx;
+}
+.rank-text{
+  color:#ea2000;
+  font-size:24rpx;
+  margin-left:260rpx;
+}
+/* banner */
+.banner-list{
+  width:700rpx;
+  height:120rpx;
+  background-color:#fff;
+  border-radius:10rpx;
+  margin-left:25rpx;
+  margin-top:20rpx;
+  display:flex;
+}
+.banner-time-text,.banner-count-text,.banner-rank-text{
+  width:220rpx;
+  height:60rpx;
+  line-height:60rpx;
+  text-align: center;
+  /* background-color: #dcdcdc; */
+  color:#333;
+  font-size:32rpx;
+  font-weight: 600;
+  margin-top:30rpx;
+}
+.banner-time{
+  margin-left:20rpx;
+}
+.banner-time-text,.banner-count-text{
+  border-right:2rpx #ddd solid; 
+}
+
+/* 排名详情 */
+.rank-title{
+  width:750rpx;
+  height:50rpx;
+  text-align: center;
+  font-size: 20rpx;
+  line-height: 50rpx;
+}
+.rank-list{
+  width:700rpx;
+  height:230rpx;
+  background-color: #fff;
+  border-radius: 16rpx;
+  margin-left:25rpx;
+  }
+
+.user{
+  position: relative;
+  top:10rpx;
+  width:680rpx;
+  height:100rpx;
+  background-color: #dcdcdc;
+  display: flex;
+  border-radius: 16rpx;
+  margin-top:10rpx;
+  margin-left:10rpx;
+}
+.user-sel{
+  position: relative;
+  top:10rpx;
+  width:680rpx;
+  height:100rpx;
+  background-color: #fbfb2b;
+  display: flex;
+  border-radius: 16rpx;
+  margin-top:10rpx;
+  margin-left:10rpx;
+}
+.user-image{
+  width:80rpx;
+  height:80rpx;
+  border-radius: 16rpx;
+}
+.user-img{
+  margin-left:10rpx;
+  margin-top:10rpx;
+}
+.user-name{
+  font-size:30rpx;
+  line-height: 100rpx;
+  margin-left:10rpx;
+  width:180rpx;
+  overflow:hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.user-time,.user-count{
+  font-size:30rpx;
+  line-height: 100rpx;
+  margin-left:10rpx;
+  width:150rpx;
+  overflow:hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.user-rank{
+  font-size:36rpx;
+  line-height: 100rpx;
+  margin-left:10rpx;
+  color:#ea2000;
+}
+
+

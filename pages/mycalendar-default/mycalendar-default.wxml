@@ -1,0 +1,7 @@
+<!--pages/mycalendar-default/mycalendar-default.wxml-->
+<view class="whole">
+  <image class="img" src='/images/myStuQ/xuexirili.png'></image>
+  <view class="title">
+   您还没有学习任何课程~
+  </view>
+</view>

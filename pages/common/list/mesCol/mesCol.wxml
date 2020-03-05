@@ -1,0 +1,14 @@
+<template name="mesCol">
+  <view class="list-item oa">
+  <image class="list-item-image" src="https://wx.qlogo.cn/mmopen/vi_32/t4hk1opmAYRhPUuE0WGm5CHha5WEXCzyXUwtDDEWx9CoVqK6JtI5xujol3MWfyWxxZjR5fYDzXJ70g94HTdKicw/132"></image>
+    <view class="list-item-left">
+    <view class="list-item-top">
+            <text class="list-item-title flex-wrp">挑战吧太空</text>
+            <text class='list-item-time flex-wrp'>12:80</text>
+</view>
+      
+      <text class="list-item-time">哈哈哈</text>
+    </view>
+    <image class="list-item-icon" src=""></image>
+  </view>
+</template>

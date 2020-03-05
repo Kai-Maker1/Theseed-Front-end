@@ -1,0 +1,37 @@
+<!-- 课程介绍 -->
+<template name="des">
+
+  <view class='des-item flex-wrp'>
+    <view class='des-item-tName'>{{tempArray.courseInfo.courseName}}</view>
+    <view class='des-item-row-two flex-wrp'>
+      <view class='des-text-small'>{{tempArray.collegeName}} {{tempArray.teacherInfo.teacherName}}</view>
+      <view class='des-text-small'>{{tempArray.courseInfo.studyCount}}人参加</view>
+    </view>
+  </view>
+
+
+  <view class='des-item flex-wrp'>
+    <view class='des-text-tMesN'>课程介绍</view>
+    <view class='des-text-tMes des-text-line5'> {{tempArray.courseInfo.brief}}
+    <!-- <view class='des-more'>点击更多</view> -->
+    </view>
+  </view>
+  <view class='des-item flex-wrp'>
+    <view class='des-text-tMesN'> 讲师</view>
+    <view class='des-item-row flex-wrp'>
+      <view >
+        <image class="des-image" src="{{tempArray.teacherInfo.header}}"></image>
+      </view>
+
+      <view class='des-teach'>
+      <view class='des-teachName'>{{tempArray.teacherInfo.teacherName}}</view>
+      <view class='des-teachMes'>教授 计算机科学与技术系主任</view>
+      </view>
+    </view>
+  
+  </view>
+
+  <view class='stu-end'>
+    <button class='stu-end-button' bindtap='joinStudy'>立即学习</button>
+  </view>
+</template>

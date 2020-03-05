@@ -1,0 +1,40 @@
+.sche-item{
+  background-color: #fff;
+  padding: 10rpx 50rpx;
+}
+.sche-item view{
+  
+}
+.sche-text-title{
+  font-size: 22rpx;
+  line-height: 32rpx;
+  color: #777777;
+}
+.sche-text-mes{
+  text-indent: 1em;
+  font-size: 22rpx;
+  line-height: 42rpx;
+  color: #222222;
+
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+.sche-text-mes image{
+  width: 25rpx ;
+  height: 25rpx;
+}
+
+.stu-end{
+  margin: 50rpx 20rpx;
+  width: 710rpx;
+  position: absolute;
+  bottom: 0rpx;
+
+}
+.stu-end-button{
+  color: #fff;
+  line-height: 80rpx;
+  background-color: #6BA8B2;
+  height: 80rpx;
+}

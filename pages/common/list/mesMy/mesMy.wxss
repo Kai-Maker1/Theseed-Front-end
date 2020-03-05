@@ -1,0 +1,91 @@
+.list-item{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 120rpx;
+  margin-top: 28rpx;
+  border-radius: 3px;
+  box-shadow: 1px 2px 3px #ddd;
+  padding: 0 30rpx;
+  color: #000;
+  background-color: #fff;
+
+}
+
+.list-item-image{
+  display: block;
+  flex: 0 0 80rpx;
+  height: 80rpx;
+  width: 80rpx;
+  border-radius: 50%;
+  top: -10rpx;
+  
+  margin:0 15rpx;
+}
+.borad{
+ border: 1rpx solid #a0a0a0;
+}
+.list-item-left{
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  padding-right: 10rpx;
+  align-items: flex-start;
+  margin-left: 45rpx;
+}
+.list-item-top{
+  /* background-color: #345; */
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  padding-right: 10rpx;
+  justify-content: space-between;
+  margin-bottom: 15rpx;
+ 
+}
+.list-item-title{
+  font-size: 32rpx;
+  
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 10rpx;
+  
+}
+.list-item-text{
+  font-size: 18rpx;
+  line-height: 125%;
+ 
+}
+.list-item-time{
+  
+  font-size: 24rpx;
+  margin-right: 10rpx;
+  color: #a0a0a0;
+}
+.list-item-icon{
+  flex: 0 0 60rpx;
+  height: 60rpx;
+  width: 60rpx;
+  border-left: 1px solid #fff;
+  padding-left: 25rpx;
+}
+
+ .red-point{
+          position: relative;
+        }
+
+        .red-point::before{
+          content: " ";
+          border: 12rpx solid red;/*设置红色*/
+          border-radius:12rpx;/*设置圆角*/
+          position: absolute;
+          z-index: 1000;
+          right:-5rpx;
+          top: 15rpx;
+          margin-right: -5px;
+          margin-top: -5px;
+        }

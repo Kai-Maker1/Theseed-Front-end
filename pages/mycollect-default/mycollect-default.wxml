@@ -1,0 +1,6 @@
+<view class="whole">
+  <image class="img" src='/images/myStuQ/wodeshoucang.png'></image>
+  <view class="title">
+   您还没有收藏任何课程~
+  </view>
+</view>

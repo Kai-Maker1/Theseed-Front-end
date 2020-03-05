@@ -1,0 +1,13 @@
+<!--pages/flower/flower.wxml-->
+<view class='main ' >
+
+  <image src='/images/flower/百合花.png'></image>
+  <view class='fun'>
+  <view class='fun-item'>
+    <image src='/images/flower/水壶.png'></image>
+      <text>浇水</text>
+    </view>
+  </view>
+
+</view>
+

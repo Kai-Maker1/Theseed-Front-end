@@ -1,0 +1,85 @@
+<!--pages/doc-dis/doc-dis.wxml-->
+<!-- 缺一个修改顶部标签js -->
+
+
+<navigator url='/pages/doc-dis/doc-all-dis/doc-all-dis'>
+<view class='dis-ver'>
+
+  <view class='dis-text-title'>关于测试
+    <view class='dis-text-title2'>老师参与</view>
+  </view>
+  <view class='dis-text-msg'> 返回啥的家乐福哈斯卡拉JFK了JFK到了发卡行分厘卡即使灯笼裤飞机啊拉开圣诞节发立刻搭街坊立刻</view>
+  <view class='dis-lina-bet'>
+    <view class='dis-lina-betline' style='width: 300rpx;'>
+      <view class='dis-text-name'>嘻嘻哈哈</view>
+      <view class='dis-text-time'>2018-1-22 11:58</view>
+
+    </view>
+    <view class='dis-lina-rbetline'>
+      <view class='dis-zan'>
+        <image src='/images/全部课程/allkecheng_xiangqing_taolun_dianzan.png'></image>
+        123
+      </view>
+      <view class='dis-cai'>
+        <image src='/images/全部课程/allkecheng_xiangqing_taolun_dianzan.png'></image>
+        453
+      </view>
+    </view>
+
+  </view>
+
+</view>
+</navigator>
+<view class='dis-ver'>
+
+  <view class='dis-text-title'>关于测试
+    <view class='dis-text-title2'>老师参与</view>
+  </view>
+  <view class='dis-text-msg'> 返回啥的家乐福哈斯卡拉JFK了JFK到了发卡行分厘卡即使灯笼裤飞机啊拉开圣诞节发立刻搭街坊立刻</view>
+  <view class='dis-lina-bet'>
+    <view class='dis-lina-betline' style='width: 300rpx;'>
+      <view class='dis-text-name'>嘻嘻哈哈</view>
+      <view class='dis-text-time'>2018-1-22 11:58</view>
+
+    </view>
+    <view class='dis-lina-rbetline'>
+      <view class='dis-zan'>
+        <image src='/images/全部课程/allkecheng_xiangqing_taolun_dianzan.png'></image>
+        123
+      </view>
+      <view class='dis-cai'>
+        <image src='/images/全部课程/allkecheng_xiangqing_taolun_dianzan.png'></image>
+        453
+      </view>
+    </view>
+
+  </view>
+
+</view>
+
+<view class='dis-ver'>
+
+  <view class='dis-text-title'>关于测试
+    <view class='dis-text-title2'>老师参与</view>
+  </view>
+  <view class='dis-text-msg wordH2'> 返回啥的家乐福哈斯卡拉JFK了JFK到了发卡行分厘卡即使灯笼裤飞机啊拉开圣诞节发立刻搭街撒旦发射点发射点发射点发s'd'fa'ga's'd'fa's'd'fa's'd'f坊立刻</view>
+  <view class='dis-lina-bet'>
+    <view class='dis-lina-betline' style='width: 300rpx;'>
+      <view class='dis-text-name'>嘻嘻哈哈</view>
+      <view class='dis-text-time'>2018-1-22 11:58</view>
+
+    </view>
+    <view class='dis-lina-rbetline'>
+      <view class='dis-zan'>
+        <image src='/images/全部课程/allkecheng_xiangqing_taolun_dianzan.png'></image>
+        123
+      </view>
+      <view class='dis-cai'>
+        <image src='/images/全部课程/allkecheng_xiangqing_taolun_dianzan.png'></image>
+        453
+      </view>
+    </view>
+
+  </view>
+
+</view>

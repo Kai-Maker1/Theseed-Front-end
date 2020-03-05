@@ -1,0 +1,9 @@
+<!--pages/js-check/js-check.wxml-->
+
+<view class="class-section flex-wrp">
+  <!-- 第几节课 -->
+  <view class='class-section-order flex-wrp '>
+    <text>2018年12月23日</text>
+    <view class='class-section-sta class-color-blue'> 进行中</view>
+  </view>
+</view>

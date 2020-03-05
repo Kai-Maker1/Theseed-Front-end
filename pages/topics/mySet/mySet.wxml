@@ -1,0 +1,9 @@
+<!--pages/topics/mySet/mySet.wxml-->
+<view class='set'>
+  <view class='set-item'>
+    <text class='set-item-text'>开启上课提醒</text>
+    
+    <switch class='set-item-button' checked bindchange="switch1Change" />
+    
+  </view>
+</view>

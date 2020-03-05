@@ -1,0 +1,90 @@
+﻿{
+  "pages": [
+    "pages/index/index",
+    "pages/topics/topics",
+    "pages/flower/flower",
+    "pages/schedule/schedule",
+    "API/getUserInfo/getUserInfo",
+    "pages/verify/verify",
+    "API/schoolSys/schoolSys",
+    "pages/other/getUserInfo/getUserInfo",
+    "pages/login/login_dvi/login_dvi",
+    "pages/login/login_stu/login_stu",
+    "pages/study/study",
+    "pages/doc-info/doc-info",
+    "pages/allPow/test",
+    "pages/doc-all-class/doc-all-class",
+    "pages/doc-dis/doc-dt/doc-dt",
+    "pages/doc-dis/doc-ds/doc-ds",
+    "pages/doc-dis/doc-dis",
+    "pages/doc-dis/doc-all-dis/doc-all-dis",
+    "pages/doc-ann/doc-ann",
+    "pages/js-card/js-card",
+    "pages/js-card-log/js-card-log",
+    "pages/js-check/js-check",
+    "pages/js-exam/js-exam",
+    "pages/js-ex-res/js-ex-res",
+    "pages/js-exam-ress/js-exam-ress",
+    "pages/js-check-s/js-check-s",
+    "pages/js-sel-class/js-sel-class",
+    "pages/js-manage-index/js-manage-index",
+    "pages/mytimetable-default/mytimetable-default",
+    "pages/mycollect/mycollect",
+    "pages/mytimetable/mytimetable",
+    "pages/sign-in/sign-in",
+    "pages/user/identity/identity",
+    "pages/user/set/set",
+    "pages/user/recommand/recommand",
+    "pages/user/about-us/about-us",
+    "pages/user/service/service",
+    "pages/js-sel-class-s/js-sel-class-s",
+    "pages/js-news/js-news",
+    "pages/mycalendar/mycalendar"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "backgroundColor": "#000",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "The Seed",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#B8B8B8",
+    "selectedColor": "#000",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/index/home_tabbar_home_nor.png",
+        "selectedIconPath": "images/index/home_tabbar_home_sel.png"
+      },
+      {
+        "pagePath": "pages/study/study",
+        "text": "我的学习",
+        "iconPath": "images/index/home_tabbar_wodexuexi_nor.png",
+        "selectedIconPath": "images/index/home_tabbar_wodexuexi_sel.png"
+      }, {
+        "pagePath": "pages/js-manage-index/js-manage-index",
+        "text": "教学管理",
+        "iconPath": "images/index/home_tabbar_jiaoxueguanli_nor.png",
+        "selectedIconPath": "images/index/home_tabbar_jiaoxueguanli_sel.png"
+      },
+      {
+        "pagePath": "pages/topics/topics",
+        "text": "我的",
+        "iconPath": "images/index/home_tabbar_wode_nor.png",
+        "selectedIconPath": "images/index/home_tabbar_wode_sel.png"
+      }
+    ]
+  },
+  "permission": {
+    "pages": [
+      "pages/js-card/js-card"
+    ],
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序打卡展示"
+    }
+  }
+}

@@ -1,0 +1,87 @@
+.des-item{
+  background-color: #fff;
+  padding: 10rpx 50rpx;
+  margin-bottom: 20rpx;
+
+  flex-direction: column;
+}
+.des-item-row{
+  flex-direction: row;
+}
+.des-item-row-two{
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.des-item-tName{
+  font-size: 42rpx;
+  line-height:72rpx; 
+
+  
+}
+.des-text-small{
+  font-size: 22rpx;
+  line-height: 42rpx;
+}
+.des-text-tMesN{
+  font-size: 28rpx;
+  line-height: 40rpx;
+  font-weight: 800;
+
+}
+.des-text-tMes{
+  font-size: 20rpx;
+  line-height: 25rpx;
+}
+.des-text-line5{
+  text-indent: 2em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+}
+.des-more{
+  z-index: 5;
+  position: relative;
+  bottom: 0;
+  background: linear-gradient( rgba(255, 255, 255, 0.8), rgba(242,242,242,1));
+  
+  text-align: center;
+}
+.des-image{
+  border-radius: 50%;
+  height: 80rpx;
+  width: 80rpx;
+}
+
+/* 左图右字 */
+.des-line{
+  flex-direction: row;
+
+}
+.des-teach{
+  padding-left: 18rpx;
+}
+.des-teachName{
+  font-size: 30rpx;
+  line-height: 45rpx;
+}
+.des-teachMes{
+  font-size: 20rpx;
+  line-height: 30rpx;
+}
+
+.stu-end{
+  margin: 50rpx 20rpx;
+  width: 710rpx;
+  position: absolute;
+  bottom: 0rpx;
+
+}
+.stu-end-button{
+  color: #fff;
+  line-height: 80rpx;
+  background-color: #6BA8B2;
+  height: 80rpx;
+}

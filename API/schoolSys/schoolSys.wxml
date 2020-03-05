@@ -1,0 +1,37 @@
+<!--API/schoolSys/schoolSys.wxml-->
+<view class='selSchool' bindtap='selectSchool'>
+  <image src='/images/我的成绩图标/下拉.png'>
+  </image>
+  <text>{{school}}天津师范大学</text>
+</view>
+
+<view class='verFrom'>
+        <form bindsubmit="formSubmit" bindreset="formReset">
+        <view class="section" wx:for="{{verList}}">
+                <view class="section__title">{{item.Name}}</view>
+                <input type="{{item.Type}}" placeholder="请输入{{item.Name}}" id="{{item.Id}}" value="{{item.Value}}" bindinput="inputChange" />
+            </view>
+            <view class="btn-area">
+                <view class="button-wrapper white">
+                    <button type="primary" formType="submit" class="primary">确认提交</button>
+                </view>
+                <view class="button-wrapper white">
+                    <button type="default" formType="reset">清空认证信息</button>
+                </view>
+            </view>
+            
+        </form>
+</view>
+<view class='agreement'>
+  查询表示同意
+  <text bindtap=''>《用户服务协议》</text>
+</view>
+<view class='Bottom-text flo-bottom'>
+-THE SEED-
+</view>
+<picker mode="multiSelector" bindchange="bindMultiPickerChange" bindcolumnchange="bindMultiPickerColumnChange" value="{{multiIndex}}" range="{{multiArray}}" range-key="departName">
+    <button class="picker">
+      当前选择：
+    </button>
+  </picker>
+

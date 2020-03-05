@@ -1,0 +1,186 @@
+<!--pages/study/study.wxml-->
+<view class="bannerlist">
+  <view class="bannerlist-sign">
+    <navigator url='/pages/sign-in/sign-in'>
+     <view class="bannerlist-sign-text">签 到</view>
+    </navigator>
+  </view>
+  <view class="bannerlist-list">
+    <view class="bannerlist-time">
+     <view class="study-num">
+       80分钟
+     </view>
+     <view class="time-title">
+       学习时间
+     </view>
+   </view>
+   <view class="border1"></view>
+   <view class="bannerlist-count">
+     <view class="count-num">  
+       40
+     </view>
+     <view class="count-title">
+       今日积分
+     </view>
+   </view>
+   <view class="border2"></view>
+   <view class="bannerlist-rank">
+     <view class="rank-num">
+      10
+     </view>
+     <view class="rank-title">
+      学校排名
+     </view>
+   </view>
+  </view>
+</view>
+<!-- 最近学习 -->
+<view class="latest">
+  <view class="latest-text">
+    <view class="latest-title">
+    <navigator url="/pages/mycollect/mycollect?msg='最近学习'&id=0">
+     最近学习
+    </navigator>
+    </view>
+    <navigator url="/pages/mycollect/mycollect?msg='最近学习'&id=0">
+     <view class="latest-next">
+     <image class="limg" src='/images/myStudy/xuexi_next.png'></image>
+     </view>
+    </navigator>
+  </view>
+  <view class="latest-img">
+    <view class="course">
+      <view class="course1-img">
+      <navigator url='/pages/doc-info/doc-info'>
+       <image class="img" src='/images/study/timg1.jpg'></image>
+      </navigator>
+      </view>
+      <view class="course-plan">
+        <view class="course-plan-text">
+          已学习50%  
+        </view>
+      </view>
+      <view class="course-title">Web前端开发</view>
+    </view>
+    <view class="course">
+      <view class="course2-img">
+       <image class="img" src='/images/study/timg2.jpg'></image>
+      </view>
+      <view class="course-plan">
+        <view class="course-plan-text">
+          已学习50%  
+        </view>
+      </view>
+      <view class="course-title">OPC修炼之道</view>
+    </view>
+    <view class="course">
+      <view class="course2-img">
+       <image class="img" src='/images/study/timg.jpg'></image>
+      </view>
+      <view class="course-plan">
+        <view class="course-plan-text">
+          已学习50%  
+        </view>
+      </view>
+      <view class="course-title">家庭财务报表编制与财务诊断</view>
+    </view>
+    <view class="course">
+      <view class="course2-img">
+       <image class="img" src='/images/study/demo1.jpg'></image>
+      </view>
+      <view class="course-plan">
+        <view class="course-plan-text">
+          已学习50%  
+        </view>
+      </view>
+      <view class="course-title">秒懂数学思维</view>
+    </view>
+  </view>
+</view>
+<!-- 下载管理 -->
+<view class="download">
+  <view class="download-text">
+    <view class="download-title">
+    <navigator url='/pages/mycollect/mycollect?msg=下载管理&id=1'>
+     下载管理
+    </navigator>
+    </view>
+    <navigator url='/pages/mycollect/mycollect?msg=下载管理&id=1'>
+      <view class="download-next">
+      <image class="dimg" src='/images/myStudy/xuexi_next.png'></image>
+      </view>
+    </navigator>
+   
+  </view>
+  <view class="download-img">
+    <view class="course">
+      <view class="course1-img">
+      <navigator url='/pages/doc-info/doc-info'>
+       <image class="img" src='/images/study/timg1.jpg'></image>
+      </navigator>
+      </view>
+      <view class="course-title">Web前端开发</view>
+    </view>
+    <view class="course">
+      <view class="course2-img">
+       <image class="img" src='/images/study/timg2.jpg'></image>
+      </view>
+      <view class="course-title">OPC修炼之道</view>
+    </view>
+    <view class="course">
+      <view class="course2-img">
+       <image class="img" src='/images/study/timg.jpg'></image>
+      </view>
+      <view class="course-title">家庭财务报表编制与财务诊断</view>
+    </view>
+    <view class="course">
+      <view class="course2-img">
+       <image class="img" src='/images/study/demo1.jpg'></image>
+      </view>
+      <view class="course-title">秒懂数学思维</view>
+    </view>
+  </view>
+
+</view>
+<!-- 个人中心 -->
+<view class="personal">
+  <view class="personnal-text">
+  个人中心
+  </view>
+</view>
+<!-- 图标跳转 -->
+<view class="logos">
+  <view class="kind">
+    <navigator url="/pages/mycollect/mycollect?msg=我的课程&id=2">
+     <image class="mycourse" src='/images/myStu/xuexi_wodekecheng.png'></image>
+    </navigator>
+    <navigator url='/pages/mycollect/mycollect?msg=我的课程&id=2'>
+     <view class="kind-title">我的课程</view>
+    </navigator>
+  </view>
+  <view class="kind">
+    <navigator url="/pages/mycollect/mycollect?msg=我的收藏&id=3">
+     <image class="mycollect" src='/images/myStu/xuexi_wodeshoucang.png'></image>
+    </navigator>
+    <navigator url='/pages/mycollect/mycollect?msg=我的收藏&id=3'>
+    <view class="kind-title">我的收藏</view>
+    </navigator>
+  </view>
+  <view class="kind">
+    <navigator url='/pages/mytimetable/mytimetable'>
+    <image class="mytimetable" src='/images/myStu/xuexi_wodekebiao.png'></image>
+    </navigator>
+    <navigator url='/pages/mytimetable/mytimetable'>
+    <view class="kind-title">我的课表</view>
+    </navigator>
+  </view>
+  <view class="kind">
+    <navigator url='/pages/mycalendar/mycalendar'>
+    <image class="mycalender" src='/images/myStu/xuexi_xuexirili.png'></image>
+    </navigator>
+    <navigator url='/pages/mycalendar/mycalendar'>
+    <view class="kind-title">我的日历</view>
+    </navigator>
+  </view>
+</view>
+

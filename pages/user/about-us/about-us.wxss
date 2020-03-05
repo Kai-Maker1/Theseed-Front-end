@@ -1,0 +1,9 @@
+/* pages/user/about-us/about-us.wxss */
+.about-us{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 36rpx;
+  line-height: 48rpx;
+  text-indent: 2em;
+}

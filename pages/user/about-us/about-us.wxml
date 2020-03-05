@@ -1,0 +1,12 @@
+<!--pages/user/about-us/about-us.wxml-->
+<view class='about-us'>
+<view>《SEED》小程序</view>
+  <view>【当前版本】</view>
+  <view>v1.0.1 2019--2-1</view>
+  <view>【本次更新日志】</view>
+  <view>SEED第一版正式上线</view>
+  <view>在使用中出现bug请反馈</view>
+  <view>【技术支持】</view>
+  <view>SEED工作室</view>
+</view>
+

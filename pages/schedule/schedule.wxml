@@ -1,0 +1,67 @@
+<!--pages/schedule/schedle.wxml-->
+<!--可滑动切换tanbar begin-->
+<view class="nav-tabs">
+  <!-- 切换头 -->
+  <view class="tab-list  {{currentTab == idx?'active':'default'}}" wx:for="{{tabArray}}" wx:for-index="idx" wx:for-item="itemName" data-current="{{idx}}" bindtap="swichNav">{{itemName}}</view>
+</view>
+<!-- swiper begin -->
+<swiper current="{{currentTab}}" class="tab-content" duration="300" bindchange="bindChange">
+  <!-- item begin -->
+  <swiper-item wx:for="{{tabArray}}" wx:for-index="idx" wx:for-item="itemName" class="">
+<view wx:for="{{data}}">
+    <template is="section" data="{{item}}"/>
+    </view>
+      <!-- <view class="class-section" wx:for="{{}}">
+      第几节课
+      <view class='class-section-order '>
+      </view>
+      课程名称
+      <view class='class-section-name'>
+      </view>
+      详细信息
+      <view class='class-section-content'>
+        老师时间
+        <view class='left'>
+
+        </view>
+        教学地点
+        <view class='right'>
+        </view>
+      </view>
+    </view>  -->
+
+
+  </swiper-item>
+  <!-- item end -->
+</swiper>
+<!-- swiper end -->
+<!--可滑动切换tanbar end-->
+
+
+<template name="section">
+  <view class="class-section flex-wrp" >
+    <!-- 第几节课 -->
+    <view class='class-section-order flex-wrp '>
+      {{item.Order}}
+    </view>
+    <!-- 课程名称 -->
+    <view class='class-section-name flex-wrp'>
+      {{item.Name}}
+    </view>
+
+    <view class='class-section-content flex-wrp'>
+        <!-- 教学老师 -->
+      <view class='class-section-teacher flex-wrp'>
+      {{item.Teacher}}
+      </view>
+      <!-- 教学地点 -->
+      <view class='class-section-site flex-wrp'>
+      {{item.Site}}
+      </view>
+    </view>
+
+    <view class='class-section-time flex-wrp'>
+      {{item.Time}}
+    </view>
+  </view>
+</template>

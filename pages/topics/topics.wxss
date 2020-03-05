@@ -1,0 +1,132 @@
+/* pages/topics/topics.wxss */
+page{
+  background-color: #eee;
+}
+/* 背景+个人 */
+.bg-banner{
+  width:750rpx;
+  height:446rpx;
+}
+.bg-image{
+  width:750rpx;
+  height:446rpx;
+}
+.user-photo-img{
+  width:120rpx;
+  height:120rpx;
+  border-radius: 60rpx;
+  margin-left:314rpx;
+
+}
+.user-photo{
+    margin-top:-316rpx;
+}
+.user-name{
+  width:750rpx;
+  text-align: center;
+  margin-top:10rpx;
+}
+.name-tetx{
+  font-size:32rpx;
+  color:#333;
+  font-weight: 800;
+}
+.user-gender{
+  font-size:32rpx;
+  color: rgb(163, 212, 255);
+  
+  
+  font-weight:800;
+}
+.gende-color{
+  color:#ff0000;
+}
+/* function */
+.function-list{
+  width:690rpx;
+  height:auto;
+  margin-top:180rpx;
+  margin-left:30rpx;
+  background-color:#fff;
+  border-radius: 20rpx;
+}
+.identity,.set,.rec,.ser,.about{
+  width:690rpx;
+  height:100rpx;
+  /* background-color: #dfdfdf; */
+  display: flex;
+}
+.identity,.set,.rec,.ser{
+  border-bottom: 1rpx #ddd solid;
+}
+.id-img,.set-img,.ser-img,.about-img,.rec-img{
+ margin-left: 30rpx;
+ margin-top: 26rpx;
+ 
+}
+.id-image,.set-image,.ser-image,.about-image,.rec-image{
+  width:48rpx;
+  height:48rpx;
+  /* background-color: #ff0000; */
+  margin-left: 40rpx;
+  margin-top:26rpx;
+}
+.id-text,.set-text,.ser-text,.rec-text,.about-text{
+  margin-left:40rpx;
+
+}
+.moto-container{
+   margin-left:40rpx;
+}
+.text{
+  color:#222;
+  font-size:34rpx;
+  /* font-weight: 600; */
+  line-height: 100rpx;
+}
+.moto{
+   color:#222;
+  font-size:34rpx;
+  /* font-weight: 600; */
+  line-height: 100rpx;
+  /* background-color: #333; */
+}
+
+.mask{
+  width:100%;
+  height:100%;
+  position:fixed;
+  background-color:#999;
+  z-index:9998;
+  top:0;
+  left:0;
+  opacity:0.5;
+}
+.content-container{
+  width:490rpx;
+  height:200rpx;
+  background-color: #fff;
+  border-radius: 20rpx;
+  position: absolute;
+  top:300rpx;
+  left:130rpx;
+  z-index:9999;
+  text-align: center;
+  line-height: 200rpx;
+}
+
+.btn-text{
+  color:#222;
+  font-size:34rpx;
+  /* font-weight: 600; */
+  line-height: 100rpx;
+  border:none !important;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  width: 550rpx;
+  text-align: left;
+}
+.btn-text::after{
+   border: none;
+}

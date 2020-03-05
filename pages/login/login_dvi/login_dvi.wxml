@@ -1,0 +1,10 @@
+<!--pages/login/login_dvi/login_dvi.wxml-->
+<view class='div-item'>
+  <image class='div-item-image' src='/images/icon/老师.png'></image>
+  <text class='div-item-text'>我是老师</text>
+</view>
+<view class='div-item'>
+  <image class='div-item-image' src='/images/icon/学生.png'></image>
+  <text class='div-item-text'>我是学生</text>
+</view>
+

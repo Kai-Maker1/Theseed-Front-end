@@ -1,0 +1,31 @@
+<!-- 首页备忘录-->
+<!-- <template name="banner">
+    <view class="navlist clearfix">
+        <template is="bannerIcon" data="{{item}}" wx:for="{{bannerIcon}}" wx:key="{{item.Id}}"/>
+    </view>
+</template> -->
+<!-- 首页图标导航template begin-->
+
+<!-- <template name="bannerIcon">  
+    <navigator url="{{item.Link}}">
+        <image src="{{item.Pic}}" alt=""></image>
+        <text>{{item.Name}}</text>
+    </navigator>    
+</template> -->
+
+
+<template name="mainList">
+
+  <view class='mianList-item' wx:for="{{List}}">
+    <view class='top'>
+      <image src='{{item.icon}}' class=' left '></image>
+      <text class='left'>{{item.title}}</text>
+
+      <view class='state right' wx:if="{{item.state}}" style=' background-color: {{item.stateColor}}'>
+      </view>
+    </view>
+    <view class='bottom'>
+      <text>{{item.content}}</text>
+    </view>
+  </view>
+</template>

@@ -1,0 +1,3 @@
+<!--pages/community/community.wxml-->
+<import src="../common/topic-item/topic-item.wxml" />
+<template is="new_list" />

@@ -1,0 +1,90 @@
+/* pages/mycourse/mycourse.wxss */
+/* 标题 */
+.top-title{
+  width:750rpx;
+  height:60rpx;
+  background-color:#ddd;
+}
+.top-title-text{
+  color:#222;
+  font-size:26rpx;
+  font-weight: 600;
+  margin-left:30rpx;
+  line-height: 60rpx;
+}
+/* 列表 */
+.course{
+  width:750rpx;
+  height:150rpx;
+  display: flex;
+  /* background-color: #222; */
+}
+.course-img{
+  margin-left:30rpx;
+  margin-top:10rpx;
+}
+.course-image{
+  width:220rpx;
+  height:130rpx;
+}
+/* .plan{
+  display: float;
+  width:80rpx;
+  height:30rpx;
+  background-color: rgb(0,0,0,0.5);
+} */
+.plan-text{
+  position: relative;
+  font-size: 22rpx;
+  background: rgba(0, 0, 0, 0.5);
+  margin-top:-42rpx;
+  margin-left:52rpx;
+  width:140rpx;
+  border-radius: 30rpx 0 0 0;
+  color: #fff;
+  padding-left:30rpx;
+}
+.details{
+  width:440rpx;
+  height:130rpx;
+  margin-top:10rpx;
+  margin-left:30rpx;
+ 
+}
+.course-name{
+  margin-top:30rpx;
+  width:440rpx;
+}
+.course-name-text{
+  font-size:36rpx;
+  font-weight:800;
+  width:440rpx;
+  overflow:hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.course-more{
+  display: flex;
+  margin-top:16rpx;
+}
+.teacher-text{
+  font-size:30rpx;
+}
+.count{
+  display: flex;
+  /* background-color: #dff; */
+  margin-left:180rpx;
+}
+.count-image{
+  position: absolute;
+  width:30rpx;
+  height:30rpx;
+  /* background-color: #222; */
+  margin-top: 6rpx;
+}
+.num{
+  margin-left:34rpx;
+}
+.num-text{
+  font-size:30rpx;
+}

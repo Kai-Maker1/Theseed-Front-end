@@ -1,0 +1,73 @@
+<!-- http://www.runoob.com/w3cnote/flex-grammar.html -->
+<template name="meaH">
+  <!-- wx:for="{{}}" -->
+
+  <!-- 版本1 -->
+  <!-- <view class='mea-list flex-wrp'>
+    <view class='.mea-item-left'>
+      <view class='mea-item flex-wrp'>
+
+        <view class='mea-image '>
+          图片
+        </view>
+        <view class='mea-duoL '>
+          <view>1</view>
+          <view>2</view>
+        </view>
+        <view class='mea-duoL '>
+          <view>1</view>
+          <view>2</view>
+          <view>3</view>
+
+        </view>
+
+
+
+      </view>
+    </view>
+
+    <view class=' mea-right'>
+      图片
+    </view>
+  </view> -->
+  <view class='mes-item flex-wrp'>
+    <view class='mes-left flex-wrp'>
+      <view class='mes-dan flex-wrp'>图片</view>
+      <view class='mes-duo flex-wrp'>
+        <view>
+          1111111111111111111111111111111111111111111111111111
+        </view>
+        <view>
+          1
+        </view>
+
+      </view>
+      
+    </view>
+    <view class='mes-left flex-wrp'>
+
+      <view class='mes-duo flex-wrp'>
+        <view>
+          1
+        </view>
+        <view>
+          1
+        </view>
+
+      </view>
+      
+      <view class='mes-dan flex-wrp'>图片</view>
+    </view>
+  </view>
+  <view class="list-item new">
+  <image class="list-item-image" src="https://wx.qlogo.cn/mmopen/vi_32/t4hk1opmAYRhPUuE0WGm5CHha5WEXCzyXUwtDDEWx9CoVqK6JtI5xujol3MWfyWxxZjR5fYDzXJ70g94HTdKicw/132"></image>
+          <view class="list-item-left">
+<view class="list-item-top">
+            <text class="list-item-title flex-wrp">挑战吧太空</text>
+            <text class='list-item-time flex-wrp'>12:80</text>
+</view>
+            <text class="list-item-text">哈哈哈</text>
+          </view>
+          <image class="list-item-icon" src=""></image>
+        </view>
+</template>

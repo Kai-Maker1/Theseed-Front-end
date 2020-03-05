@@ -1,0 +1,17 @@
+<!--pages/js-card-log/js-card-log.wxml-->
+<wxs src="./utl.wxs" module="tools" />
+
+<view class="class-section flex-wrp" wx:for="{{arrays}}">
+    <!-- 第几节课 -->
+    <view class='class-section-order flex-wrp '>
+      <text>{{tools.sub(item.createTime)}}</text> 
+      <text>{{tools.subB(item.createTime)}}</text>
+    </view>
+    <!-- 课程名称 -->
+    <view class='class-section-pos flex-wrp'>
+         {{item.place}}
+    </view>
+
+    
+  </view>
+

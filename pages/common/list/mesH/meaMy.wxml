@@ -1,0 +1,10 @@
+<template name="meaH">
+  <view class="list-item new">
+  `<image class="list-item-image" src=""></image>
+    <view class="list-item-left">
+      <text class="list-item-title">挑战吧太空</text>
+      <text class="list-item-time">哈哈哈</text>
+    </view>
+    <image class="list-item-icon" src=""></image>
+  </view>
+</template>

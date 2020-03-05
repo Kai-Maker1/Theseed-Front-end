@@ -1,0 +1,10 @@
+<!--pages/js-sel-class-s/js-sel-class-s.wxml-->
+
+<view class="js-ex-item ">
+  <view class="ex-name class-ma">
+  <view>教室：101</view>
+  <view><text>100</text>座位</view>
+  </view>
+  
+</view>
+

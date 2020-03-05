@@ -1,0 +1,57 @@
+/* pages/topics/mySet/mySet.wxss */
+page{
+  background-color: #f4f4f4;
+}
+.set{
+  display: flex;
+  margin-top: 25rpx;
+  box-shadow: 1px 2px 3px #ddd;
+  width: 750rpx;
+}
+.set-item{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 75rpx;
+  width: 750rpx;
+  padding:  0 20rpx;
+  color: #000;
+  background-color: #fff;
+}
+.set-item-text{
+  width: 470rpx;
+  font-size: 36rpx;
+  line-height: 75rpx;
+  height: 75rpx;
+  font-weight: 400;
+  padding: 0 60rpx;
+
+}
+.set-item-button{
+  display: flex;
+  line-height: 75rpx;
+  top:20rpx; 
+  /* background-color: #432; */
+   
+   
+}
+/*swtich样式-start*/
+/*swtich整体大小*/
+.wx-switch-input{
+width:98rpx !important;
+height:45rpx !important;
+background: #99cad8 !important;
+border: #99cad8 !important;
+}
+/*白色样式（false的样式）*/
+.wx-switch-input::before{
+width:98rpx !important;
+height: 45rpx !important;
+
+}
+/*绿色样式（true的样式）*/
+.wx-switch-input::after{
+width: 48rpx !important;
+height: 45rpx !important;
+
+}

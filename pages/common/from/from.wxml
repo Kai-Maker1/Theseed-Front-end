@@ -1,0 +1,33 @@
+<template name="verFrom">
+<view class='verFrom'>
+        <form bindsubmit="formSubmit" bindreset="formReset" >
+        <view class="section" wx:for="{{verList}}">
+                <view class="section__title">{{item.Name}}</view>
+                <input type="{{item.Type}}" placeholder="请输入{{item.Name}}" id="{{item.Id}}" value="{{item.Value}}" bindinput="inputChange" />
+            </view>
+            <!-- <view class="section">
+                <view class="section__title">学号</view>
+                <input type="idcard" placeholder="请输入" id="username" value="{{inputs['username']}}" bindinput="inputChange" />
+            </view>
+            <view class="section">
+                <view class="section__title">密码</view>
+                <input password type="text" placeholder="" id="password" value="{{inputs['username']}}" bindinput="inputChange" />
+            </view> -->
+
+            <!-- <view class="section">
+                <view class="section__title">记住学号和密码</view>
+                <view class="section_gap">
+                    <switch checked id="remind" bindchange="switchChange" />
+                </view>
+            </view> -->
+            <view class="btn-area">
+                <view class="button-wrapper">
+                    <button type="primary" formType="submit" class="primary">确认提交</button>
+                </view>
+                <view class="button-wrapper" style='display:none;'>
+                    <button type="default" formType="reset">清空认证信息</button>
+                </view>
+            </view>
+        </form>
+        </view>
+</template>

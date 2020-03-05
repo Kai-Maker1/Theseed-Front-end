@@ -1,0 +1,7 @@
+<!--pages/download-default/download-default.wxml-->
+<view class="whole">
+  <image class="img" src='/images/myStuQ/download.png'></image>
+  <view class="title">
+   您还没有下载任何课程~
+  </view>
+</view>

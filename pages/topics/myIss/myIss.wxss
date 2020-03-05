@@ -1,0 +1,2 @@
+/* pages/topics/myIss/myIss.wxss */
+ @import "/pages/common/list/mesIss/mesIss.wxss";

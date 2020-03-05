@@ -1,0 +1,25 @@
+<!--pages/topics/myFoot/myFoot.wxml-->
+<!--可滑动切换tanbar begin-->
+<view class="nav-tabs">
+  <!-- 切换头 -->
+  <view class="tab-list  {{currentTab == idx?'active':'default'}}" wx:for="{{tabArray}}" wx:for-index="idx" wx:for-item="itemName" data-current="{{idx}}" bindtap="swichNav">
+  <view data-current="{{idx}}" bindtap="swichNav">{{itemName.web}}</view>
+  <view class=" {{currentTab == idx?'active1':''}}"data-current="{{idx}}" bindtap="swichNav">{{itemName.jap}}</view>
+  <view class='point' hidden='{{itemName.news}}'></view>
+  </view>
+</view>
+<!-- swiper begin -->
+<swiper current="{{currentTab}}" class="tab-content" duration="300" bindchange="bindChange">
+  <!-- item begin -->
+  <swiper-item wx:for="{{tabArray}}" wx:for-index="idx" wx:for-item="itemName" class="">
+    <view wx:for="{{data}}">
+
+    <template is="section" data="{{item}}"/>
+    </view>
+     
+
+  </swiper-item>
+  <!-- item end -->
+</swiper>
+<!-- swiper end -->
+<!--可滑动切换tanbar end-->

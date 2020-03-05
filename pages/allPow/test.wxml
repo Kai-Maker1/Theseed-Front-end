@@ -1,0 +1,21 @@
+<!--pages/allPow/test.wxml-->
+所有组件均必须再flex下执行
+
+<view class="user flex-wrp" style='background-color: {{plateColor}}'>
+  <view class="avatar flex-item">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover" bindtap='seeImage'></image>
+  </view>
+  <view class="user-info flex-item">
+    <view>
+      <text class="userinfo-nickname">{{user.nickName}}</text>
+
+      <text class="edit">查看或编辑个人主页</text>
+    </view>
+
+  </view>
+</view>
+
+<view class='flex-item'>
+  <view class='flex-line'>
+  </view>
+</view>

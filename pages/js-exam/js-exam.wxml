@@ -1,0 +1,79 @@
+<!--pages/js-exam/js-exam.wxml-->
+
+<form bindsubmit="bindFrom">
+<view class="class-section flex-wrp">
+
+  <view class='class-section-order flex-wrp ' >
+
+    <text><text style="color:red;">*</text>1.设有各项安全领导组织机构，并在醒目位置上墙</text>
+  </view>
+  <view class='class-section-radio flex-wrp'>
+    <radio-group bindchange="radioChange" name="itname">
+      <label  class='class-section-radio-label'>
+       
+        <radio value="0" >优</radio>
+        <radio value="1"  > 良</radio>
+        <radio value="2"  > 中</radio>
+        <radio value="3"  > 差</radio>
+        
+      </label>
+    </radio-group>
+  </view>
+
+
+</view>
+
+
+<view class="class-section flex-wrp">
+  <view class='class-section-order flex-wrp '>
+
+    <text><text style="color:red;">*</text>2.设有各项安全领导组织机构，并在醒目位置上墙</text>
+  </view>
+  <view class='class-section-radio flex-wrp'>
+    <radio-group bindchange="radioChange">
+      <label  class='class-section-radio-label'>
+       
+       <radio value="0" >优</radio>
+        <radio value="1"  > 良</radio>
+        <radio value="2"  > 中</radio>
+        <radio value="3"  > 差</radio>
+      </label>
+    </radio-group>
+  </view>
+
+
+</view>
+
+
+<view class="class-section flex-wrp">
+  <view class='class-section-order flex-wrp '>
+
+    <text><text style="color:red;">*</text>3.设有各项安全领导组织机构，并在醒目位置上墙</text>
+  </view>
+  <view class='class-section-radio flex-wrp'>
+    <radio-group bindchange="radioChange">
+      <label  class='class-section-radio-label'>
+       
+<radio value="0" >优</radio>
+        <radio value="1"  > 良</radio>
+        <radio value="2"  > 中</radio>
+        <radio value="3"  > 差</radio>
+      </label>
+    </radio-group>
+  </view>
+
+
+</view>
+
+
+<view class='class-setion-zhuyi'> <text>注：</text> 请选择考核等级优、良、合格、基本合格、差，分别对应的系数为1、0.8、0.6、0.4、0.2.      系数乘以分值为></view>
+
+<button class='class-setion-exam-button' form-type='submit'>确定提交</button>
+</form>
+
+<view class='mask' hidden='true'>
+  <view class='model-tishi'>
+  <text class='text1'>提交失败</text>
+  <text class='text2'>请稍后再试</text>
+  </view>
+</view>

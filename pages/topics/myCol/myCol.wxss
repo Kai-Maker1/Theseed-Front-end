@@ -1,0 +1,2 @@
+/* pages/topics/myCol/myCol.wxss */
+ @import "/pages/common/list/mesCol/mesCol.wxss";

@@ -1,0 +1,109 @@
+/* pages/js-exam/js-exam.wxss */
+page {
+  background-color: #EEEEEE;
+}
+.class-section{
+  /* height: 100rpx; */
+  width: auto;
+  margin: 30rpx 20rpx 10rpx;
+  border-radius: 30rpx;
+  background-color: #fff;
+
+  padding: 18rpx 45rpx;
+
+  flex-flow: column nowrap;
+  letter-spacing: 3rpx;
+
+}
+.class-section view{
+  /* margin: auto 32rpx; */
+}
+.class-section-order{
+
+flex-direction: row;
+align-items: center;
+
+}
+.class-section-order text{
+  font-size: 24rpx;
+  font-weight: 400;
+  line-height: 60rpx;
+  color: #030303;
+  letter-spacing: 0rpx;
+}
+.class-section-radio{
+  color: #555555;
+  line-height:50rpx;
+  font-size: 26rpx; 
+  font-weight: 400;
+  
+  
+}
+.class-section-radio-label{
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+
+}
+radio{
+  transform: scale(0.6);
+  font-size: 38rpx;
+
+}
+
+.class-setion-zhuyi{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin: 10rpx 50rpx;
+  font-size: 20rpx;
+  line-height: 40rpx;
+  text-indent: 2em;
+}
+
+.class-setion-exam-button{
+  margin: 70rpx 125rpx;
+  background-color: #DC4E41;
+  color: #fff;
+  border-radius: 25rpx;
+}
+
+
+.mask{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 9000;
+    
+
+    display: flex;
+    justify-items: center;
+    align-content: center;
+}
+.model-tishi{
+  position: absolute;
+ 
+  margin: 450rpx 125rpx;
+  width: 500rpx;
+  height: 100rpx;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  
+  align-items: center;
+  padding: 50rpx 0;
+  border-radius: 25rpx;
+
+}
+.text1{
+  font-size: 28rpx;
+  line-height: 60rpx;
+
+}
+.text2{
+  font-size: 24rpx;
+  line-height: 30rpx;
+}

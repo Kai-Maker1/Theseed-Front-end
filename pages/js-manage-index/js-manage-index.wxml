@@ -1,0 +1,75 @@
+<!--pages/js-manage-index/js-manage-index.wxml-->
+
+<view class='js-top'>
+  <view class='js-top-sea'>
+    <image src='/images/jsMan/login_search.png'></image>
+    <input ></input>
+  </view>
+  <view class='js-top-image'>
+    <!-- <image src='/images/jsMan/jiaoxueguanli_xiaoxi.png'></image> -->
+    <navigator url='/pages/js-card/js-card'>
+    <image src='/images/jsMan/jiaoxueguanli-anpai.png'></image></navigator>
+    <navigator url='/pages/js-card-log/js-card-log'> 
+    <image src='/images/jsMan/jiaoxueguanli_qiandao.png'></image></navigator>
+  </view>
+</view>
+
+<view class='js-banner'>
+  <navigator url='/pages/schedule/schedule'>
+  <view class='js-banner-item'>
+  <image src='https://school-1258358792.cos.ap-beijing.myqcloud.com/teaching_management/chengji-04.png'></image>
+  <text>课程表</text>
+  </view>
+  </navigator>
+ <navigator url='/pages/js-check-s/js-check-s'>
+  <view class='js-banner-item'>
+  <image src='https://school-1258358792.cos.ap-beijing.myqcloud.com/teaching_management/chengji-05.png'></image>
+  <text>教学考评</text>
+  </view>
+  </navigator>
+
+<navigator url='/pages/js-sel-class/js-sel-class'>
+  <view class='js-banner-item'>
+  <image src='https://school-1258358792.cos.ap-beijing.myqcloud.com/teaching_management/chengji-03.png'></image>
+  <text>空闲教室</text>
+  </view>
+</navigator>
+
+
+<navigator url='/pages/js-exam-ress/js-exam-ress'>
+  <view class='js-banner-item'>
+  <image src='https://school-1258358792.cos.ap-beijing.myqcloud.com/teaching_management/chengji-02.png'></image>
+  <text>我的成绩</text>
+  </view>
+</navigator>
+
+</view>
+
+<view class='js-tongzhi'>
+
+  <text>最新通知</text>
+
+</view>
+
+<view class='js-kc' >
+
+
+  <!-- <navigator url='/pages/js-news/js-news'> -->
+  <view class='js-kc-item' wx:for="{{arrays}}" data-id = "{{index}}" bindtap='navBind'>
+    <view class='js=kc-image'>
+      <image src='{{item.pictureUrl}}' ></image>
+      <!-- 修改 -->
+    </view>
+
+    <view class='js-kc-text'>
+    <view class='js-kc-title wordH1'>{{item.infoTitle}}</view>
+    <view class='js-kc-time'>{{item.createTime}}</view>
+    <view class='js-kc-content wordH2'>{{item.infoBrief}}</view>
+    </view>
+  </view>
+<!-- </navigator> -->
+
+
+</view>
+
+<view class='gl-bottom' hidden='true'>已经到最低啦！</view>

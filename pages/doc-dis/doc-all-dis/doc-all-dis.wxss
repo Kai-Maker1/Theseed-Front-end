@@ -1,0 +1,20 @@
+/* pages/doc-dis/doc-all-dis.wxss*/
+
+@import "/pages/doc-dis/doc-dis.wxss";
+page {
+  background-color: #EFEFEF;
+}
+.dis-ann{
+  height: 48rpx;
+  padding: 0 45rpx;
+  font-size: 28rpx;
+  
+  line-height: 48rpx;
+ }
+.dis-color{
+  color: #6BA8B2;
+}
+ .dis-a{
+   box-shadow:0rpx 15rpx 40rpx rgba(0,0,0,.1) inset;
+   padding-top: 40rpx;
+ }

@@ -1,0 +1,71 @@
+<!--index.wxml-->
+<!-- <view class='mode-white'></view> -->
+<import src="../common/topBanner.wxml" />
+<import src="../common/banner.wxml" />
+<template is="topBanner" />
+
+
+<view class='topBanner'>
+  <view class=''></view>
+  <view class='topBanner-image'>
+
+    <!-- <view class="search">
+      <view class="search_arr">
+        <icon class="searchcion" size='15' color='' type='search'></icon>
+        <input class="" placeholder="搜索" value="{{searchValue}}" />
+      </view>
+    </view> -->
+
+    <!-- <image src='/images/首页banner.png'></image> -->
+  </view>
+</view>
+
+<!--导航图标 begin-->
+<import src="../common/banner.wxml" />
+<template is="banner" data="{{ bannerIcon }}" />
+<!--导航图标 end-->
+
+
+<!--列表 begin-->
+<!-- <import src="../common/mainList.wxml" />
+<template is="mainList" data="{{List}}" /> -->
+<!--列表 end-->
+
+
+
+<!-- <view class="class-doc" wx:for="{{doc_class_list}}" wx:key="{{item}}">   原是下一行-->  
+<view class="class-doc" >
+  <view class="class-title">
+  {{doc_class_list.title}}
+  </view>
+  <view class="class-doc-list">
+    <block wx:for="{{doc_class_list.courses}}" wx:key="{{item}}">  
+    <!-- 二级课程 -->
+      <view class="class-doc-list-item roundEdge" data-id="{{item.courseId}}">
+        <view class="class-doc-list-img-box ">
+          <navigator url="/pages/doc-info/doc-info?doc_id={{item.courseId}}&status=0">
+            <image mode="aspectFill" class="class-doc-list-img-box-img" src="{{item.picture}}"></image>
+
+            <text class="end-state" wx:if="{{false}}">已完成</text>
+            <view class="view-count">
+              <text class="view-count-text">{{item.studyCount}}阅读</text>
+            </view>
+          </navigator>
+        </view>
+        <view class="class-doc-list-info-box wordH1">
+          {{item.courseName}}
+          <view class='class-doc-list-info-box2'>
+            <view class='class-doc-list-info-box-teacher left wordH1'>
+              {{item.teacherName}}
+            </view>
+            <view class='class-doc-list-info-box-time right wordH1' >
+              {{item.begintime}}
+            </view>
+          </view>
+        </view>
+      </view>
+    </block>
+  </view>
+</view>
+
+<!-- 底部显示加载 -->

@@ -1,0 +1,15 @@
+<!-- 课程大纲 -->
+<template name="sche">
+<view class='sche-item' wx:for="{{tempArray}}">
+
+  <view class='sche-text-title' >{{item.chapterName}}</view>
+  <view wx:for="{{item.sectionList}}" wx:for-item="sec">
+    <view class='sche-text-mes'>{{sec.sectionName}}</view>
+  </view>
+  
+
+</view>
+<view class='stu-end'>
+    <button class='stu-end-button' bindtap='joinStudy'>立即学习</button>
+  </view>
+</template>
