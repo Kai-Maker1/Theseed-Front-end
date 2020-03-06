@@ -1,104 +1,58 @@
 
 # Theseed前端
- 
-参赛作品前端
 
-该作品是2019年中国大学生计算机设计大赛作品前端部分
-
-作品归中国大学生计算机设计大赛所有
-
-发布者为参赛作品队长
-
-作品编号60752
-
-参赛院校天津师范大学软件学院
+    该作品是天津师范大学软件学院参加2019年中国大学生计算机设计大赛作品-60752-前端部分
+    软件所有权归中国大学生计算机设计大赛所有，该软件已经申请著作权仅供交流学习使用。
 
 作品概念和开发指南将与后台代码一起发布
 
 # 项目演示
-[项目视频演示地址]
-需要补充
 
-## Getting Started
+
+##### 以下仅为模型图，实际软件效果以视频为准
+
+<div algin="center">
+  <img src="https://github.com/Kai-Maker1/Theseed-Front-end/blob/master/images2/%E9%A6%96%E9%A1%B5.png" width=24% height=25%><img src="https://github.com/Kai-Maker1/Theseed-Front-end/blob/master/images2/全部课程.png" width=24% height=25%>
+<img src="https://github.com/Kai-Maker1/Theseed-Front-end/blob/master/images2/教学管理.png" width=24% height=25%><img src="https://github.com/Kai-Maker1/Theseed-Front-end/blob/master/images2/个人-首页-已认证.png" width=24% height=25%>
+</div>
+
+[项目视频演示地址](https://pan.baidu.com/s/1ZNFZx5KAljRjax2shOsCZg) 提取码：vQ2b
+
+## 上手指南
  
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+此项目仅为整个项目的前台部分---微信小程序前端，IDE为微信开发者平台。
  
-### Prerequisites
+### 安装要求
  
-What things you need to install the software and how to install them
+微信开发者工具（version-1.02.1912172）
+
+[小程序官方文档]https://developers.weixin.qq.com/miniprogram/dev/framework/ 
  
-```
-Give examples
-```
+### 安装步骤
  
-### Installing
+ 首先需要申请小程序账号，绑定自己微信和openid，安装开发者工具
+
  
-A step by step series of examples that tell you how to get a development env running
+### 测试
  
-Say what the step will be
+主要是根据需求规格说明书，测试前后端数据的互通以及功能的完整性。
  
-```
-Give the example
-```
+## 版本控制
  
-And repeat
+此项目在微信开发者平台（version-1.02.1912172）下能正常运行，未测试其他版本。 
  
-```
-until finished
-```
+## 前端涉及作者
  
-End with an example of getting some data out of the system or using it for a little demo
- 
-## Running the tests
- 
-Explain how to run the automated tests for this system
- 
-### Break down into end to end tests
- 
-Explain what these tests test and why
- 
-```
-Give an example
-```
- 
-### And coding style tests
- 
-Explain what these tests test and why
- 
-```
-Give an example
-```
- 
-## Deployment
- 
-Add additional notes about how to deploy this on a live system
- 
-## Built With
- 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
- 
-## Contributing
- 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
- 
-## Versioning
- 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
- 
-## Authors
- 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **KAI** - *需求分析并书写软件开发文档，软件创意以及软件框架设计模块设计* - [Kai-Maker1](https://github.com/Kai-Maker1)
+* **Luo** - *软件设计，数据传输以及前后台交互* - [aoao-github](https://github.com/aoao-github)
+* **AOAO** - *软件创意以及API设计* - [aoao-github](https://github.com/aoao-github)
+* **Lee** - *软件创意以及API设计* - [Lee](https://github.com/MiracleYee/Lee)
  
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
  
-## License
+## 版权声明
  
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+该作品已经申请软件著作权且作为参赛作品，仅供学习交流使用。
  
-## Acknowledgments
- 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+## 联系微信
+<img src="https://github.com/Kai-Maker1/Theseed-Front-end/blob/master/images2/971583505208_.pic.jpg" width=24% height=25%>
