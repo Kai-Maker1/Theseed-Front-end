@@ -44,15 +44,15 @@
 ## 前端涉及作者
  
 * **KAI** - *需求分析并书写软件开发文档，软件创意以及软件框架设计模块设计* - [Kai-Maker1](https://github.com/Kai-Maker1)
-* **Luo** - *软件设计，数据传输以及前后台交互* - [aoao-github](https://github.com/aoao-github)
+* **Luo** - *软件设计，数据传输以及前后台交互* - [aoao-github](https://github.com/1025946443)
 * **AOAO** - *软件创意以及API设计* - [aoao-github](https://github.com/aoao-github)
-* **Lee** - *软件创意以及API设计* - [Lee](https://github.com/MiracleYee/Lee)
+* **Lee** - *软件原型图设计，模型图设计以及UI设计* - [Lee](https://github.com/MiracleYee/Lee)
  
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
  
 ## 版权声明
  
 该作品已经申请软件著作权且作为参赛作品，仅供学习交流使用。
- 
+
 ## 联系微信
 <img src="https://github.com/Kai-Maker1/Theseed-Front-end/blob/master/images2/971583505208_.pic.jpg" width=24% height=25%>
